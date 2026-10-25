@@ -2,7 +2,7 @@
 
 ## 프로젝트 운영
 
-[mjy102](https://github.com/mjy102): 기획, 요구사항 결정, 사용자 실행 검수, 최종 승인 및 배포 관리.
+[JayerSolhan](https://github.com/JayerSolhan): 기획, 요구사항 결정, 사용자 실행 검수, 최종 승인 및 배포 관리.
 
 ## 개발 도움
 
