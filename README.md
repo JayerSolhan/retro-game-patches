@@ -9,13 +9,13 @@
 | 세계수의 미궁 3 한글패치 | 닌텐도 DS | v1.0.1 | [다운로드](https://github.com/mjy102/retro-game-patches/releases/tag/eo3-korean--v1.0.1) |
 | 투하트2 던전 트래블러즈 한글패치 | PSP | v1.0 | [다운로드](https://github.com/mjy102/retro-game-patches/releases/tag/dungeon-travelers-korean--v1.0) |
 | 드래곤 나이트 & 그래피티 한글패치 | PC엔진 CD | v1.0 | [다운로드](https://github.com/mjy102/retro-game-patches/releases/tag/dragon-knight-korean--v1.0) |
-| 세계수의 미궁 X 한글패치 | 닌텐도 3DS | 배포물 검토 중 | 게시 전 |
+| 세계수의 미궁 X 한글패치 | 닌텐도 3DS | v1.0.2 | [다운로드](https://github.com/mjy102/retro-game-patches/releases/tag/eon-korean--v1.0.2) |
 
 ## 편의기능 패치
 
 | 프로젝트 | 기종 | 배포 버전 | 다운로드 |
 |---|---|---|---|
-| 바이오하자드 1 디렉터스 컷 모던 컨트롤 | PS1 | 개발·검토 중 | 게시 전 |
+| 바이오하자드 1 디렉터스 컷 듀얼쇼크 모던 컨트롤 | PS1 | v1.0 | [다운로드](https://github.com/mjy102/retro-game-patches/releases/tag/re1dc-modern--v1.0) |
 | 바이오하자드 2 모던 컨트롤 | PS1 | v0.4.3 | [다운로드](https://github.com/mjy102/retro-game-patches/releases/tag/re2-modern--v0.4.3) |
 | 바이오하자드 3 모던 컨트롤 | PS1 | v0.3 | [다운로드](https://github.com/mjy102/retro-game-patches/releases/tag/re3-modern--v0.3) |
 | 사일런트 힐 1 모던 컨트롤 | PS1 | v1.0 | [다운로드](https://github.com/mjy102/retro-game-patches/releases/tag/sh1-modern--v1.0) |
@@ -24,9 +24,12 @@
 | 바이오하자드 제로 모던 컨트롤 | 게임큐브 | 개발·검토 중 | 게시 전 |
 | 바이오하자드 리버스 모던 컨트롤 | 게임큐브 | v1.0 | [다운로드](https://github.com/mjy102/retro-game-patches/releases/tag/remake-modern--v1.0) |
 | 바이오하자드 코드 베로니카 모던 컨트롤 | PS2 | v1.0 | [다운로드](https://github.com/mjy102/retro-game-patches/releases/tag/cv-modern--v1.0) |
-| 귀무자 2 모던 컨트롤 | PS2 | 개발·검토 중 | 게시 전 |
+| 귀무자 2 모던 컨트롤 | PS2 | v1.0 | [다운로드](https://github.com/mjy102/retro-game-patches/releases/tag/onimusha2-modern--v1.0) |
 | 바이오하자드 4 조준 중 이동·사격 | PS2 | v1.0 | [다운로드](https://github.com/mjy102/retro-game-patches/releases/tag/re4-modern--v1.0) |
 | 패러사이트 이브 2 모던 컨트롤 | PS1 | v1.0 | [다운로드](https://github.com/mjy102/retro-game-patches/releases/tag/pe2-modern--v1.0) |
+| 세계수의 미궁 X 초상화·보이스 교체기 | Windows 64비트 | v1.2.0 | [다운로드](https://github.com/mjy102/retro-game-patches/releases/tag/eon-portrait-voice-editor--v1.2.0) |
+
+RE1 디렉터스 컷은 **듀얼쇼크판**이 배포되어 있으며, **일반판은 별도 개발 중**입니다.
 
 ## 사용 안내
 

@@ -11,11 +11,12 @@
     },
     {
       "id": "re1dc-modern",
-      "title": "바이오하자드 1 디렉터스 컷 모던 컨트롤",
+      "title": "바이오하자드 1 디렉터스 컷 듀얼쇼크 모던 컨트롤",
       "platform": "PS1",
-      "current_public_version": null,
-      "download_url": null,
-      "category": "편의기능 패치"
+      "current_public_version": "v1.0",
+      "download_url": "https://github.com/mjy102/retro-game-patches/releases/tag/re1dc-modern--v1.0",
+      "category": "편의기능 패치",
+      "edition_note": "듀얼쇼크판 배포 완료 / 일반판은 별도 개발 중"
     },
     {
       "id": "re2-modern",
@@ -85,8 +86,8 @@
       "id": "onimusha2-modern",
       "title": "귀무자 2 모던 컨트롤",
       "platform": "PS2",
-      "current_public_version": null,
-      "download_url": null,
+      "current_public_version": "v1.0",
+      "download_url": "https://github.com/mjy102/retro-game-patches/releases/tag/onimusha2-modern--v1.0",
       "category": "편의기능 패치"
     },
     {
@@ -125,9 +126,17 @@
       "id": "eon-korean",
       "title": "세계수의 미궁 X 한글패치",
       "platform": "닌텐도 3DS",
-      "current_public_version": null,
-      "download_url": null,
+      "current_public_version": "v1.0.2",
+      "download_url": "https://github.com/mjy102/retro-game-patches/releases/tag/eon-korean--v1.0.2",
       "category": "한글패치"
+    },
+    {
+      "id": "eon-portrait-voice-editor",
+      "title": "세계수의 미궁 X 초상화·보이스 교체기",
+      "platform": "Windows 64비트",
+      "category": "편의기능 패치",
+      "current_public_version": "v1.2.0",
+      "download_url": "https://github.com/mjy102/retro-game-patches/releases/tag/eon-portrait-voice-editor--v1.2.0"
     }
   ]
 }
