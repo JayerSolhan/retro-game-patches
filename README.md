@@ -19,7 +19,7 @@
 | 바이오하자드 1 디렉터스 컷 듀얼쇼크 모던 컨트롤 | PS1 | v1.0 | [다운로드](https://github.com/JayerSolhan/retro-game-patches/releases/tag/re1dc-modern--v1.0) |
 | 바이오하자드 2 모던 컨트롤 | PS1 | v0.4.3 | [다운로드](https://github.com/JayerSolhan/retro-game-patches/releases/tag/re2-modern--v0.4.3) |
 | 바이오하자드 3 모던 컨트롤 | PS1 | v0.3 | [다운로드](https://github.com/JayerSolhan/retro-game-patches/releases/tag/re3-modern--v0.3) |
-| 사일런트 힐 1 모던 컨트롤 | PS1 | v1.0 | [다운로드](https://github.com/JayerSolhan/retro-game-patches/releases/tag/sh1-modern--v1.0) |
+| 사일런트 힐 1 모던 컨트롤 | PS1 | v1.0 | [일본판](https://github.com/JayerSolhan/retro-game-patches/releases/download/sh1-modern--v1.0/sh1-modern-v1.0-FINAL_R5_20260914.zip) · [북미판](https://github.com/JayerSolhan/retro-game-patches/releases/download/sh1-modern--v1.0/SH1_USA_KO_SLUS00707_R8_COMPLETE_v1.0.zip) |
 | 디노 크라이시스 1 모던 컨트롤 | PS1 | v0.16 | [다운로드](https://github.com/JayerSolhan/retro-game-patches/releases/tag/dc1-modern--v0.16) |
 | 디노 크라이시스 2 모던 컨트롤 | PS1 | v1.0 | [다운로드](https://github.com/JayerSolhan/retro-game-patches/releases/tag/dc2-modern--v1.0) |
 | 바이오하자드 제로 모던 컨트롤 | 게임큐브 | 개발·검토 중 | 게시 전 |
@@ -30,6 +30,8 @@
 | 패러사이트 이브 2 모던 컨트롤 | PS1 | v1.0 | [다운로드](https://github.com/JayerSolhan/retro-game-patches/releases/tag/pe2-modern--v1.0) |
 
 미궁 X 릴리스에는 **한글패치 ZIP**과 선택 도구인 **초상화·보이스 교체기 ZIP**이 각각 들어 있습니다. RE1 디렉터스 컷은 **듀얼쇼크판**이 배포되어 있으며 **일반판은 별도 개발 중**입니다.
+
+PS1 모던 컨트롤 6종(RE1·RE2·RE3·사일런트 힐 일본판·디노 크라이시스 1·2)은 2026-09-14 최종 통합본의 게임별 패키지를 제공합니다. 각 릴리스에서 `FINAL_R5_20260914.zip`을 선택하세요. 사일런트 힐 북미판은 별도 R8 ZIP입니다.
 
 ## 사용 안내
 

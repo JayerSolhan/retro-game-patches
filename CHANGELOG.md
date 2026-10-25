@@ -18,3 +18,9 @@
 - [바이오하자드 4 조준 중 이동·사격 v1.0](https://github.com/JayerSolhan/retro-game-patches/releases/tag/re4-modern--v1.0)
 - [바이오하자드 리버스 모던 컨트롤 v1.0](https://github.com/JayerSolhan/retro-game-patches/releases/tag/remake-modern--v1.0)
 - [사일런트 힐 1 모던 컨트롤 v1.0](https://github.com/JayerSolhan/retro-game-patches/releases/tag/sh1-modern--v1.0)
+
+## 2026-10-25 최종 배포본 대조 및 판본 보완
+
+- PS1 모던 컨트롤 6종을 사용자 지정 2026-09-14 최종본의 게임별 패키지로 갱신했습니다. 구성 파일 바이트와 공용 백엔드·브리지 의존성을 검증했습니다.
+- 사일런트 힐 일본판·북미판을 별도 ZIP 및 다운로드 링크로 제공합니다.
+- 배포자 표기와 주소를 JayerSolhan으로 갱신했습니다.
