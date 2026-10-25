@@ -19,7 +19,14 @@
       "edition_note": "듀얼쇼크판 배포 완료 / 일반판은 별도 개발 중",
       "current_package": "re1dc-modern-v1.0-FINAL_R5_20260914.zip",
       "package_date": "2026-09-14",
-      "source_bundle": "PS1_MODERN_CONTROLS_20260914.zip"
+      "source_bundle": "PS1_MODERN_CONTROLS_20260914.zip",
+      "region_downloads": [
+        {
+          "title": "0914 최종본",
+          "filename": "re1dc-modern-v1.0-FINAL_R5_20260914.zip",
+          "url": "https://github.com/JayerSolhan/retro-game-patches/releases/download/re1dc-modern--v1.0/re1dc-modern-v1.0-FINAL_R5_20260914.zip"
+        }
+      ]
     },
     {
       "id": "re2-modern",
@@ -30,7 +37,14 @@
       "category": "편의기능 패치",
       "current_package": "re2-modern-v0.4.3-FINAL_R5_20260914.zip",
       "package_date": "2026-09-14",
-      "source_bundle": "PS1_MODERN_CONTROLS_20260914.zip"
+      "source_bundle": "PS1_MODERN_CONTROLS_20260914.zip",
+      "region_downloads": [
+        {
+          "title": "0914 최종본",
+          "filename": "re2-modern-v0.4.3-FINAL_R5_20260914.zip",
+          "url": "https://github.com/JayerSolhan/retro-game-patches/releases/download/re2-modern--v0.4.3/re2-modern-v0.4.3-FINAL_R5_20260914.zip"
+        }
+      ]
     },
     {
       "id": "re3-modern",
@@ -41,7 +55,14 @@
       "category": "편의기능 패치",
       "current_package": "re3-modern-v0.3-FINAL_R5_20260914.zip",
       "package_date": "2026-09-14",
-      "source_bundle": "PS1_MODERN_CONTROLS_20260914.zip"
+      "source_bundle": "PS1_MODERN_CONTROLS_20260914.zip",
+      "region_downloads": [
+        {
+          "title": "0914 최종본",
+          "filename": "re3-modern-v0.3-FINAL_R5_20260914.zip",
+          "url": "https://github.com/JayerSolhan/retro-game-patches/releases/download/re3-modern--v0.3/re3-modern-v0.3-FINAL_R5_20260914.zip"
+        }
+      ]
     },
     {
       "id": "sh1-modern",
@@ -78,7 +99,14 @@
       "category": "편의기능 패치",
       "current_package": "dc1-modern-v0.16-FINAL_R5_20260914.zip",
       "package_date": "2026-09-14",
-      "source_bundle": "PS1_MODERN_CONTROLS_20260914.zip"
+      "source_bundle": "PS1_MODERN_CONTROLS_20260914.zip",
+      "region_downloads": [
+        {
+          "title": "0914 최종본",
+          "filename": "dc1-modern-v0.16-FINAL_R5_20260914.zip",
+          "url": "https://github.com/JayerSolhan/retro-game-patches/releases/download/dc1-modern--v0.16/dc1-modern-v0.16-FINAL_R5_20260914.zip"
+        }
+      ]
     },
     {
       "id": "dc2-modern",
@@ -89,7 +117,14 @@
       "category": "편의기능 패치",
       "current_package": "dc2-modern-v1.0-FINAL_R5_20260914.zip",
       "package_date": "2026-09-14",
-      "source_bundle": "PS1_MODERN_CONTROLS_20260914.zip"
+      "source_bundle": "PS1_MODERN_CONTROLS_20260914.zip",
+      "region_downloads": [
+        {
+          "title": "0914 최종본",
+          "filename": "dc2-modern-v1.0-FINAL_R5_20260914.zip",
+          "url": "https://github.com/JayerSolhan/retro-game-patches/releases/download/dc2-modern--v1.0/dc2-modern-v1.0-FINAL_R5_20260914.zip"
+        }
+      ]
     },
     {
       "id": "re0-modern",

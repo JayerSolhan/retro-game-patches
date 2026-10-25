@@ -16,12 +16,12 @@
 
 | 프로젝트 | 기종 | 배포 버전 | 다운로드 |
 |---|---|---|---|
-| 바이오하자드 1 디렉터스 컷 듀얼쇼크 모던 컨트롤 | PS1 | v1.0 | [다운로드](https://github.com/JayerSolhan/retro-game-patches/releases/tag/re1dc-modern--v1.0) |
-| 바이오하자드 2 모던 컨트롤 | PS1 | v0.4.3 | [다운로드](https://github.com/JayerSolhan/retro-game-patches/releases/tag/re2-modern--v0.4.3) |
-| 바이오하자드 3 모던 컨트롤 | PS1 | v0.3 | [다운로드](https://github.com/JayerSolhan/retro-game-patches/releases/tag/re3-modern--v0.3) |
+| 바이오하자드 1 디렉터스 컷 듀얼쇼크 모던 컨트롤 | PS1 | v1.0 | [0914 최종본](https://github.com/JayerSolhan/retro-game-patches/releases/download/re1dc-modern--v1.0/re1dc-modern-v1.0-FINAL_R5_20260914.zip) |
+| 바이오하자드 2 모던 컨트롤 | PS1 | v0.4.3 | [0914 최종본](https://github.com/JayerSolhan/retro-game-patches/releases/download/re2-modern--v0.4.3/re2-modern-v0.4.3-FINAL_R5_20260914.zip) |
+| 바이오하자드 3 모던 컨트롤 | PS1 | v0.3 | [0914 최종본](https://github.com/JayerSolhan/retro-game-patches/releases/download/re3-modern--v0.3/re3-modern-v0.3-FINAL_R5_20260914.zip) |
 | 사일런트 힐 1 모던 컨트롤 | PS1 | v1.0 | [일본판](https://github.com/JayerSolhan/retro-game-patches/releases/download/sh1-modern--v1.0/sh1-modern-v1.0-FINAL_R5_20260914.zip) · [북미판](https://github.com/JayerSolhan/retro-game-patches/releases/download/sh1-modern--v1.0/SH1_USA_KO_SLUS00707_R8_COMPLETE_v1.0.zip) |
-| 디노 크라이시스 1 모던 컨트롤 | PS1 | v0.16 | [다운로드](https://github.com/JayerSolhan/retro-game-patches/releases/tag/dc1-modern--v0.16) |
-| 디노 크라이시스 2 모던 컨트롤 | PS1 | v1.0 | [다운로드](https://github.com/JayerSolhan/retro-game-patches/releases/tag/dc2-modern--v1.0) |
+| 디노 크라이시스 1 모던 컨트롤 | PS1 | v0.16 | [0914 최종본](https://github.com/JayerSolhan/retro-game-patches/releases/download/dc1-modern--v0.16/dc1-modern-v0.16-FINAL_R5_20260914.zip) |
+| 디노 크라이시스 2 모던 컨트롤 | PS1 | v1.0 | [0914 최종본](https://github.com/JayerSolhan/retro-game-patches/releases/download/dc2-modern--v1.0/dc2-modern-v1.0-FINAL_R5_20260914.zip) |
 | 바이오하자드 제로 모던 컨트롤 | 게임큐브 | 개발·검토 중 | 게시 전 |
 | 바이오하자드 리버스 모던 컨트롤 | 게임큐브 | v1.0 | [다운로드](https://github.com/JayerSolhan/retro-game-patches/releases/tag/remake-modern--v1.0) |
 | 바이오하자드 코드 베로니카 모던 컨트롤 | PS2 | v1.0 | [다운로드](https://github.com/JayerSolhan/retro-game-patches/releases/tag/cv-modern--v1.0) |
