@@ -141,6 +141,14 @@
           "filename": "SekaijuX_Nexus_PortraitVoiceEditor_x64.zip"
         }
       ]
+    },
+    {
+      "id": "mm-coh-korean",
+      "title": "마이트 앤 매직: 클래시 오브 히어로즈 한글패치",
+      "platform": "닌텐도 DS",
+      "current_public_version": "v1.0",
+      "download_url": "https://github.com/mjy102/retro-game-patches/releases/tag/mm-coh-korean--v1.0",
+      "category": "한글패치"
     }
   ]
 }

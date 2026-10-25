@@ -10,6 +10,7 @@
 | 투하트2 던전 트래블러즈 한글패치 | PSP | v1.0 | [다운로드](https://github.com/mjy102/retro-game-patches/releases/tag/dungeon-travelers-korean--v1.0) |
 | 드래곤 나이트 & 그래피티 한글패치 | PC엔진 CD | v1.0 | [다운로드](https://github.com/mjy102/retro-game-patches/releases/tag/dragon-knight-korean--v1.0) |
 | 세계수의 미궁 X 한글패치 | 닌텐도 3DS | v1.0.2 | [한글패치 · 교체기](https://github.com/mjy102/retro-game-patches/releases/tag/eon-korean--v1.0.2) |
+| 마이트 앤 매직: 클래시 오브 히어로즈 한글패치 | 닌텐도 DS | v1.0 | [다운로드](https://github.com/mjy102/retro-game-patches/releases/tag/mm-coh-korean--v1.0) |
 
 ## 편의기능 패치
 
