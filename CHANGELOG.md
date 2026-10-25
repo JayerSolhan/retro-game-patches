@@ -10,7 +10,6 @@
 - [투하트2 던전 트래블러즈 한글패치 v1.0](https://github.com/mjy102/retro-game-patches/releases/tag/dungeon-travelers-korean--v1.0)
 - [세계수의 미궁 3 한글패치 v1.0.1](https://github.com/mjy102/retro-game-patches/releases/tag/eo3-korean--v1.0.1)
 - [세계수의 미궁 X 한글패치 v1.0.2](https://github.com/mjy102/retro-game-patches/releases/tag/eon-korean--v1.0.2)
-- [세계수의 미궁 X 초상화·보이스 교체기 v1.2.0](https://github.com/mjy102/retro-game-patches/releases/tag/eon-portrait-voice-editor--v1.2.0)
 - [귀무자 2 모던 컨트롤 v1.0](https://github.com/mjy102/retro-game-patches/releases/tag/onimusha2-modern--v1.0)
 - [패러사이트 이브 2 모던 컨트롤 v1.0](https://github.com/mjy102/retro-game-patches/releases/tag/pe2-modern--v1.0)
 - [바이오하자드 1 디렉터스 컷 듀얼쇼크 모던 컨트롤 v1.0](https://github.com/mjy102/retro-game-patches/releases/tag/re1dc-modern--v1.0)

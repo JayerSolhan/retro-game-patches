@@ -128,15 +128,19 @@
       "platform": "닌텐도 3DS",
       "current_public_version": "v1.0.2",
       "download_url": "https://github.com/mjy102/retro-game-patches/releases/tag/eon-korean--v1.0.2",
-      "category": "한글패치"
-    },
-    {
-      "id": "eon-portrait-voice-editor",
-      "title": "세계수의 미궁 X 초상화·보이스 교체기",
-      "platform": "Windows 64비트",
-      "category": "편의기능 패치",
-      "current_public_version": "v1.2.0",
-      "download_url": "https://github.com/mjy102/retro-game-patches/releases/tag/eon-portrait-voice-editor--v1.2.0"
+      "category": "한글패치",
+      "included_downloads": [
+        {
+          "title": "한글패치",
+          "version": "v1.0.2",
+          "filename": "Etrian_Odyssey_Nexus_Sekaiju_no_Meikyuu_X_Korean_Patch_v1.0.2.zip"
+        },
+        {
+          "title": "초상화·보이스 교체기",
+          "version": "v1.2.0",
+          "filename": "SekaijuX_Nexus_PortraitVoiceEditor_x64.zip"
+        }
+      ]
     }
   ]
 }
