@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "projects": [
+    {
+      "id": "eo3-korean",
+      "title": "EO3 NDS 한국어화",
+      "platform": "Nintendo DS",
+      "current_public_version": null,
+      "download_url": null
+    },
+    {
+      "id": "re1dc-modern",
+      "title": "PS1 바이오하자드 DC 모던 컨트롤",
+      "platform": "PS1",
+      "current_public_version": null,
+      "download_url": null
+    },
+    {
+      "id": "re2-modern",
+      "title": "PS1 바이오하자드 2 모던 컨트롤",
+      "platform": "PS1",
+      "current_public_version": null,
+      "download_url": null
+    },
+    {
+      "id": "re3-modern",
+      "title": "PS1 바이오하자드 3 모던 컨트롤",
+      "platform": "PS1",
+      "current_public_version": null,
+      "download_url": null
+    },
+    {
+      "id": "sh1-modern",
+      "title": "PS1 사일런트 힐 모던 컨트롤",
+      "platform": "PS1",
+      "current_public_version": null,
+      "download_url": null
+    },
+    {
+      "id": "dc1-modern",
+      "title": "PS1 디노 크라이시스 1",
+      "platform": "PS1",
+      "current_public_version": null,
+      "download_url": null
+    },
+    {
+      "id": "dc2-modern",
+      "title": "PS1 디노 크라이시스 2",
+      "platform": "PS1",
+      "current_public_version": null,
+      "download_url": null
+    },
+    {
+      "id": "re0-modern",
+      "title": "GameCube 바이오하자드 0",
+      "platform": "GameCube",
+      "current_public_version": null,
+      "download_url": null
+    },
+    {
+      "id": "remake-modern",
+      "title": "GameCube 바이오하자드 리버스",
+      "platform": "GameCube",
+      "current_public_version": null,
+      "download_url": null
+    },
+    {
+      "id": "cv-modern",
+      "title": "PS2 코드 베로니카 모던 컨트롤",
+      "platform": "PS2",
+      "current_public_version": null,
+      "download_url": null
+    },
+    {
+      "id": "onimusha2-modern",
+      "title": "PS2 귀무자 2",
+      "platform": "PS2",
+      "current_public_version": null,
+      "download_url": null
+    },
+    {
+      "id": "re4-modern",
+      "title": "PS2 바이오하자드 4 Moving Shot",
+      "platform": "PS2",
+      "current_public_version": null,
+      "download_url": null
+    },
+    {
+      "id": "doongsil-art",
+      "title": "어린이 그림 전시 앱 둥실 그림나라",
+      "platform": "Windows / Web",
+      "current_public_version": null,
+      "download_url": null
+    },
+    {
+      "id": "jogakjogak-puzzle",
+      "title": "조각조각 놀이터 직소 웹앱",
+      "platform": "Web",
+      "current_public_version": null,
+      "download_url": null
+    },
+    {
+      "id": "pe2-modern",
+      "title": "Parasite Eve 2 modern controls",
+      "platform": "PS1",
+      "current_public_version": null,
+      "download_url": null
+    },
+    {
+      "id": "dungeon-travelers-korean",
+      "title": "ToHeart2 Dungeon Travelers PSP Korean patch",
+      "platform": "PSP",
+      "current_public_version": null,
+      "download_url": null
+    },
+    {
+      "id": "dragon-knight-korean",
+      "title": "Dragon Knight Graffiti PC Engine Korean patch",
+      "platform": "PC Engine CD",
+      "current_public_version": null,
+      "download_url": null
+    },
+    {
+      "id": "eon-korean",
+      "title": "Etrian Odyssey Nexus / Sekaiju no Meikyuu X Korean patch",
+      "platform": "Nintendo 3DS",
+      "current_public_version": null,
+      "download_url": null
+    }
+  ]
+}
