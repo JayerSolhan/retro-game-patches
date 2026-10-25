@@ -4,9 +4,9 @@
     {
       "id": "eo3-korean",
       "title": "세계수의 미궁 3 한글패치",
-      "platform": "Nintendo DS",
-      "current_public_version": null,
-      "download_url": null,
+      "platform": "닌텐도 DS",
+      "current_public_version": "v1.0.1",
+      "download_url": "https://github.com/mjy102/retro-game-patches/releases/tag/eo3-korean--v1.0.1",
       "category": "한글패치"
     },
     {
@@ -21,46 +21,46 @@
       "id": "re2-modern",
       "title": "바이오하자드 2 모던 컨트롤",
       "platform": "PS1",
-      "current_public_version": null,
-      "download_url": null,
+      "current_public_version": "v0.4.3",
+      "download_url": "https://github.com/mjy102/retro-game-patches/releases/tag/re2-modern--v0.4.3",
       "category": "편의기능 패치"
     },
     {
       "id": "re3-modern",
       "title": "바이오하자드 3 모던 컨트롤",
       "platform": "PS1",
-      "current_public_version": null,
-      "download_url": null,
+      "current_public_version": "v0.3",
+      "download_url": "https://github.com/mjy102/retro-game-patches/releases/tag/re3-modern--v0.3",
       "category": "편의기능 패치"
     },
     {
       "id": "sh1-modern",
       "title": "사일런트 힐 1 모던 컨트롤",
       "platform": "PS1",
-      "current_public_version": null,
-      "download_url": null,
+      "current_public_version": "v1.0",
+      "download_url": "https://github.com/mjy102/retro-game-patches/releases/tag/sh1-modern--v1.0",
       "category": "편의기능 패치"
     },
     {
       "id": "dc1-modern",
       "title": "디노 크라이시스 1 모던 컨트롤",
       "platform": "PS1",
-      "current_public_version": null,
-      "download_url": null,
+      "current_public_version": "v0.16",
+      "download_url": "https://github.com/mjy102/retro-game-patches/releases/tag/dc1-modern--v0.16",
       "category": "편의기능 패치"
     },
     {
       "id": "dc2-modern",
       "title": "디노 크라이시스 2 모던 컨트롤",
       "platform": "PS1",
-      "current_public_version": null,
-      "download_url": null,
+      "current_public_version": "v1.0",
+      "download_url": "https://github.com/mjy102/retro-game-patches/releases/tag/dc2-modern--v1.0",
       "category": "편의기능 패치"
     },
     {
       "id": "re0-modern",
       "title": "바이오하자드 제로 모던 컨트롤",
-      "platform": "GameCube",
+      "platform": "게임큐브",
       "current_public_version": null,
       "download_url": null,
       "category": "편의기능 패치"
@@ -68,17 +68,17 @@
     {
       "id": "remake-modern",
       "title": "바이오하자드 리버스 모던 컨트롤",
-      "platform": "GameCube",
-      "current_public_version": null,
-      "download_url": null,
+      "platform": "게임큐브",
+      "current_public_version": "v1.0",
+      "download_url": "https://github.com/mjy102/retro-game-patches/releases/tag/remake-modern--v1.0",
       "category": "편의기능 패치"
     },
     {
       "id": "cv-modern",
       "title": "바이오하자드 코드 베로니카 모던 컨트롤",
       "platform": "PS2",
-      "current_public_version": null,
-      "download_url": null,
+      "current_public_version": "v1.0",
+      "download_url": "https://github.com/mjy102/retro-game-patches/releases/tag/cv-modern--v1.0",
       "category": "편의기능 패치"
     },
     {
@@ -93,38 +93,38 @@
       "id": "re4-modern",
       "title": "바이오하자드 4 조준 중 이동·사격",
       "platform": "PS2",
-      "current_public_version": null,
-      "download_url": null,
+      "current_public_version": "v1.0",
+      "download_url": "https://github.com/mjy102/retro-game-patches/releases/tag/re4-modern--v1.0",
       "category": "편의기능 패치"
     },
     {
       "id": "pe2-modern",
       "title": "패러사이트 이브 2 모던 컨트롤",
       "platform": "PS1",
-      "current_public_version": null,
-      "download_url": null,
+      "current_public_version": "v1.0",
+      "download_url": "https://github.com/mjy102/retro-game-patches/releases/tag/pe2-modern--v1.0",
       "category": "편의기능 패치"
     },
     {
       "id": "dungeon-travelers-korean",
       "title": "투하트2 던전 트래블러즈 한글패치",
       "platform": "PSP",
-      "current_public_version": null,
-      "download_url": null,
+      "current_public_version": "v1.0",
+      "download_url": "https://github.com/mjy102/retro-game-patches/releases/tag/dungeon-travelers-korean--v1.0",
       "category": "한글패치"
     },
     {
       "id": "dragon-knight-korean",
       "title": "드래곤 나이트 & 그래피티 한글패치",
-      "platform": "PC Engine CD",
-      "current_public_version": null,
-      "download_url": null,
+      "platform": "PC엔진 CD",
+      "current_public_version": "v1.0",
+      "download_url": "https://github.com/mjy102/retro-game-patches/releases/tag/dragon-knight-korean--v1.0",
       "category": "한글패치"
     },
     {
       "id": "eon-korean",
       "title": "세계수의 미궁 X 한글패치",
-      "platform": "Nintendo 3DS",
+      "platform": "닌텐도 3DS",
       "current_public_version": null,
       "download_url": null,
       "category": "한글패치"
