@@ -24,3 +24,5 @@
 - PS1 모던 컨트롤 6종을 사용자 지정 2026-09-14 최종본의 게임별 패키지로 갱신했습니다. 구성 파일 바이트와 공용 백엔드·브리지 의존성을 검증했습니다.
 - 사일런트 힐 일본판·북미판을 별도 ZIP 및 다운로드 링크로 제공합니다.
 - 배포자 표기와 주소를 JayerSolhan으로 갱신했습니다.
+
+- [세계수의 미궁 X 한글패치 v1.0.3](https://github.com/JayerSolhan/retro-game-patches/releases/tag/eon-korean--v1.0.3)
