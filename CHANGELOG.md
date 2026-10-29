@@ -1,5 +1,10 @@
 # 공개 배포 이력
 
+## 2026-10-29
+
+- [레고 배틀즈 (USA / NDS) 한국어 패치 v1.0](https://github.com/JayerSolhan/retro-game-patches/releases/tag/lego-battles-korean--v1.0): 최초 배포. CP62 최신 번역·폰트·이미지 반영, 사용자가 메뉴 및 미션 약 두 개 실행 검수. 원본 ROM 미포함, SHA 검증형 Windows 패처와 단일 BPS 제공.
+
+
 ## 2026-10-25
 
 기존 완성 게임 배포본을 이 통합 자료실에 등록했습니다.

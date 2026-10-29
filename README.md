@@ -12,6 +12,8 @@
 | 세계수의 미궁 X 한글패치 | 닌텐도 3DS | v1.0.3 | [한글패치 · 교체기](https://github.com/JayerSolhan/retro-game-patches/releases/tag/eon-korean--v1.0.3) |
 | 마이트 앤 매직: 클래시 오브 히어로즈 한글패치 | 닌텐도 DS | v1.0 | [다운로드](https://github.com/JayerSolhan/retro-game-patches/releases/tag/mm-coh-korean--v1.0) |
 
+| 레고 배틀즈 한국어 패치 | 닌텐도 DS | v1.0 | [릴리스](https://github.com/JayerSolhan/retro-game-patches/releases/tag/lego-battles-korean--v1.0) · [ZIP 직접 다운로드](https://github.com/JayerSolhan/retro-game-patches/raw/refs/heads/main/downloads/lego-battles-korean/v1.0/LEGO_Battles_Korean_Patch_v1.0_20261029.zip) |
+
 ## 편의기능 패치
 
 | 프로젝트 | 기종 | 배포 버전 | 다운로드 |

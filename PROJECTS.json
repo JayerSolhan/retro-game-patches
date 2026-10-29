@@ -210,6 +210,19 @@
       "current_public_version": "v1.0",
       "download_url": "https://github.com/JayerSolhan/retro-game-patches/releases/tag/mm-coh-korean--v1.0",
       "category": "한글패치"
+    },
+    {
+      "id": "lego-battles-korean",
+      "title": "레고 배틀즈 한국어 패치",
+      "platform": "닌텐도 DS",
+      "current_public_version": "v1.0",
+      "category": "한글패치",
+      "download_url": "https://github.com/JayerSolhan/retro-game-patches/releases/tag/lego-battles-korean--v1.0",
+      "direct_download_url": "https://github.com/JayerSolhan/retro-game-patches/raw/refs/heads/main/downloads/lego-battles-korean/v1.0/LEGO_Battles_Korean_Patch_v1.0_20261029.zip",
+      "current_package": "LEGO_Battles_Korean_Patch_v1.0_20261029.zip",
+      "package_date": "2026-10-29",
+      "input_rom_sha256": "4d2d71719b4588272cc8f48995f0bd4d9dcb5af0fdb67b0b645c72dcb8dcd489",
+      "output_rom_sha256": "073fd17ef87b9a5bde42ddb80cd802d42ddac3ce8958ef117b37957aa4e4ec1d"
     }
   ]
 }
