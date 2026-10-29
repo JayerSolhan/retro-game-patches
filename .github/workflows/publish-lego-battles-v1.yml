@@ -1,0 +1,36 @@
+name: Publish LEGO Battles Korean v1.0
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'downloads/lego-battles-korean/v1.0/LEGO_Battles_Korean_Patch_v1.0_20261029.zip'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify release asset
+        shell: bash
+        run: |
+          set -euo pipefail
+          echo '3249611277249d65f7e55aff90c32e19a90e72fb22c7e35774289c28b3780205  downloads/lego-battles-korean/v1.0/LEGO_Battles_Korean_Patch_v1.0_20261029.zip' | sha256sum -c -
+      - name: Create or update GitHub Release
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          tag='lego-battles-korean--v1.0'
+          asset='downloads/lego-battles-korean/v1.0/LEGO_Battles_Korean_Patch_v1.0_20261029.zip'
+          notes='downloads/lego-battles-korean/v1.0/RELEASE_NOTES_KO.md'
+          if gh release view "$tag" >/dev/null 2>&1; then
+            gh release upload "$tag" "$asset" --clobber
+          else
+            gh release create "$tag" "$asset" --target main --title 'LEGO Battles 한국어 패치 v1.0' --notes-file "$notes"
+          fi
