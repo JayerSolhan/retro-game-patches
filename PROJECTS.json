@@ -158,9 +158,14 @@
       "id": "onimusha2-modern",
       "title": "귀무자 2 모던 컨트롤",
       "platform": "PS2",
-      "current_public_version": "v1.0",
-      "download_url": "https://github.com/JayerSolhan/retro-game-patches/releases/tag/onimusha2-modern--v1.0",
-      "category": "편의기능 패치"
+      "current_public_version": "R07",
+      "download_url": "https://github.com/JayerSolhan/retro-game-patches/releases/tag/onimusha2-modern--R07",
+      "category": "편의기능 패치",
+      "direct_download_url": "https://github.com/JayerSolhan/retro-game-patches/releases/download/onimusha2-modern--R07/ONIMUSHA2_modern_control_R07.zip",
+      "current_package": "ONIMUSHA2_modern_control_R07.zip",
+      "package_date": "2026-11-05",
+      "package_sha256": "c9afc2eed73f877d8fbef90748f9011fd41c672d6c0b7e0985f46c20fcf02fde",
+      "edition_note": "SLPM-67518; 치트+Windows 영구패처(ISO/CD CHD/DVD CHD); 사용자 P04 실게임 PASS, R07 재포장 단독 런타임 미검증"
     },
     {
       "id": "re4-modern",
