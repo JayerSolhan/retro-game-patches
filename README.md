@@ -12,7 +12,7 @@
 | 레고 배틀즈 한국어 패치 | 닌텐도 DS | v1.0 | 2026-10-29 | [다운로드](https://github.com/JayerSolhan/retro-game-patches/releases/tag/lego-battles-korean--v1.0) |
 | 마이트 앤 매직: 클래시 오브 히어로즈 한글패치 | 닌텐도 DS | v1.0 | 2026-10-25 | [다운로드](https://github.com/JayerSolhan/retro-game-patches/releases/tag/mm-coh-korean--v1.0) |
 | 세계수의 미궁 3 한글패치 | 닌텐도 DS | v1.0.1 | 확인 필요 | [다운로드](https://github.com/JayerSolhan/retro-game-patches/releases/tag/eo3-korean--v1.0.1) |
-| 세계수의 미궁 X 한글패치 | 닌텐도 3DS | v1.0.4 | 확인 필요 | [한글패치 · 교체기](https://github.com/JayerSolhan/retro-game-patches/releases/tag/eon-korean--v1.0.4) |
+| 세계수의 미궁 X 한글패치 | 닌텐도 3DS | v1.0.4 | 2026-11-04 | [한글패치 · 교체기](https://github.com/JayerSolhan/retro-game-patches/releases/tag/eon-korean--v1.0.4) |
 | 투하트2 던전 트래블러즈 한글패치 | PSP | v1.0 | 확인 필요 | [다운로드](https://github.com/JayerSolhan/retro-game-patches/releases/tag/dungeon-travelers-korean--v1.0) |
 
 ## 편의기능 패치
