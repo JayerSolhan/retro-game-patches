@@ -4,16 +4,16 @@
 
 ## 한글패치
 
-**날짜 기준:** GitHub 업로드·공개일이 아닌 기존 배포 패키지의 제작 기준일 또는 실제 배포 게시글의 작성일입니다. 게시글 날짜는 ZIP 자체의 생성 시각과 다를 수 있습니다. **BETA 게시**는 해당 게시글이 베타 배포 기록임을 뜻하며 정식 v1.0 제작일과 동일하다는 뜻은 아닙니다. 날짜 근거가 없으면 **확인 필요**로 표시합니다. `2026-09-14`로 표기한 PS1 6종은 해당 날짜의 최종 통합 패치에서 분리한 게임별 배포본입니다.
+**날짜 기준:** 최종 배포 파일 제작 기록이나 실제 배포 게시글 날짜를 사용하며, GitHub 업로드·공개일은 사용하지 않습니다. 게시글 날짜와 패키지 생성 시각은 다를 수 있습니다. 여러 판본을 함께 배포하는 경우 가장 최근 배포 게시글 날짜를 표시합니다. PS1 최종 통합본 6종은 2026-09-14를 기준으로 합니다.
 
 | 프로젝트 | 기종 | 배포 버전 | 최종 배포일 | 다운로드 |
 |---|---|---|---|---|
-| 드래곤 나이트 & 그래피티 한글패치 | PC엔진 CD | v1.0 | 확인 필요 | [다운로드](https://github.com/JayerSolhan/retro-game-patches/releases/tag/dragon-knight-korean--v1.0) |
+| 드래곤 나이트 & 그래피티 한글패치 | PC엔진 CD | v1.0 | 2026-10-20 | [다운로드](https://github.com/JayerSolhan/retro-game-patches/releases/tag/dragon-knight-korean--v1.0) |
 | 레고 배틀즈 한국어 패치 | 닌텐도 DS | v1.0 | 2026-10-29 | [다운로드](https://github.com/JayerSolhan/retro-game-patches/releases/tag/lego-battles-korean--v1.0) |
 | 마이트 앤 매직: 클래시 오브 히어로즈 한글패치 | 닌텐도 DS | v1.0 | 2026-10-25 | [다운로드](https://github.com/JayerSolhan/retro-game-patches/releases/tag/mm-coh-korean--v1.0) |
-| 세계수의 미궁 3 한글패치 | 닌텐도 DS | v1.0.1 | [2026-09-13](https://m.dcinside.com/board/sq/19288) | [다운로드](https://github.com/JayerSolhan/retro-game-patches/releases/tag/eo3-korean--v1.0.1) |
+| 세계수의 미궁 3 한글패치 | 닌텐도 DS | v1.0.1 | 2026-09-13 | [다운로드](https://github.com/JayerSolhan/retro-game-patches/releases/tag/eo3-korean--v1.0.1) |
 | 세계수의 미궁 X 한글패치 | 닌텐도 3DS | v1.0.4 | 2026-11-04 | [한글패치 · 교체기](https://github.com/JayerSolhan/retro-game-patches/releases/tag/eon-korean--v1.0.4) |
-| 투하트2 던전 트래블러즈 한글패치 | PSP | v1.0 | [2026-10-22](https://m.dcinside.com/board/retrogame/240532) | [다운로드](https://github.com/JayerSolhan/retro-game-patches/releases/tag/dungeon-travelers-korean--v1.0) |
+| 투하트2 던전 트래블러즈 한글패치 | PSP | v1.0 | 2026-10-22 | [다운로드](https://github.com/JayerSolhan/retro-game-patches/releases/tag/dungeon-travelers-korean--v1.0) |
 
 ## 편의기능 패치
 
@@ -25,11 +25,11 @@
 | 바이오하자드 1 디렉터스 컷 듀얼쇼크 모던 컨트롤 | PS1 | v1.0 | 2026-09-14 | [0914 최종본](https://github.com/JayerSolhan/retro-game-patches/releases/download/re1dc-modern--v1.0/re1dc-modern-v1.0-FINAL_R5_20260914.zip) |
 | 바이오하자드 2 모던 컨트롤 | PS1 | v0.4.3 | 2026-09-14 | [0914 최종본](https://github.com/JayerSolhan/retro-game-patches/releases/download/re2-modern--v0.4.3/re2-modern-v0.4.3-FINAL_R5_20260914.zip) |
 | 바이오하자드 3 모던 컨트롤 | PS1 | v0.3 | 2026-09-14 | [0914 최종본](https://github.com/JayerSolhan/retro-game-patches/releases/download/re3-modern--v0.3/re3-modern-v0.3-FINAL_R5_20260914.zip) |
-| 바이오하자드 4 조준 중 이동·사격 | PS2 | v1.0 | [2026-10-07 (BETA 게시)](https://m.dcinside.com/board/retrogame/232412) | [다운로드](https://github.com/JayerSolhan/retro-game-patches/releases/tag/re4-modern--v1.0) |
+| 바이오하자드 4 조준 중 이동·사격 | PS2 | v1.0 | 2026-10-07 | [다운로드](https://github.com/JayerSolhan/retro-game-patches/releases/tag/re4-modern--v1.0) |
 | 바이오하자드 리버스 모던 컨트롤 | 게임큐브 | v1.0 | 2026-10-24 | [다운로드](https://github.com/JayerSolhan/retro-game-patches/releases/tag/remake-modern--v1.0) |
 | 바이오하자드 제로 모던 컨트롤 | 게임큐브 | v1.0 | 2026-11-05 | [다운로드](https://github.com/JayerSolhan/retro-game-patches/releases/tag/re0-modern--v1.0) |
 | 바이오하자드 코드 베로니카 모던 컨트롤 | PS2 | v1.0 | 2026-10-03 | [다운로드](https://github.com/JayerSolhan/retro-game-patches/releases/tag/cv-modern--v1.0) |
-| 사일런트 힐 1 모던 컨트롤 | PS1 | v1.0 | 일본판 2026-09-14 / 북미판 [2026-10-22 (BETA 게시)](https://m.dcinside.com/board/retrogame/240449) | [일본판](https://github.com/JayerSolhan/retro-game-patches/releases/download/sh1-modern--v1.0/sh1-modern-v1.0-FINAL_R5_20260914.zip) · [북미판](https://github.com/JayerSolhan/retro-game-patches/releases/download/sh1-modern--v1.0/SH1_USA_KO_SLUS00707_R8_COMPLETE_v1.0.zip) |
+| 사일런트 힐 1 모던 컨트롤 | PS1 | v1.0 | 2026-10-22 | [일본판](https://github.com/JayerSolhan/retro-game-patches/releases/download/sh1-modern--v1.0/sh1-modern-v1.0-FINAL_R5_20260914.zip) · [북미판](https://github.com/JayerSolhan/retro-game-patches/releases/download/sh1-modern--v1.0/SH1_USA_KO_SLUS00707_R8_COMPLETE_v1.0.zip) |
 | 패러사이트 이브 2 모던 컨트롤 | PS1 | v1.0 | 2026-10-05 | [다운로드](https://github.com/JayerSolhan/retro-game-patches/releases/tag/pe2-modern--v1.0) |
 
 바이오하자드 제로(GBZJ08 Rev0)는 Dolphin INI 및 Windows 영구 패처를 함께 제공합니다. 두 방식을 동시에 사용하지 마세요. **디스크 1 사용자 실게임 검증 PASS, 디스크 2는 정적 검사 PASS·실게임 미검증**입니다.
