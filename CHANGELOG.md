@@ -1,5 +1,10 @@
 # 공개 배포 이력
 
+## 2026-11-05
+
+- [바이오하자드 제로 GameCube 일본판 GBZJ08 Rev0 모던 컨트롤 v1.0](https://github.com/JayerSolhan/retro-game-patches/releases/tag/re0-modern--v1.0): Dolphin `modern_control` INI와 Windows 영구 패처를 통합 배포. 사용 설명서는 TXT이며, 두 방식 동시 적용 금지. Disc 1 사용자 실게임 PASS, Disc 2 정적 검증 PASS(실게임 및 디스크 교체 미검증). 바이너리 명칭 변경 회귀검사 126/126 PASS.
+
+
 ## 2026-10-29
 
 - [레고 배틀즈 (USA / NDS) 한국어 패치 v1.0](https://github.com/JayerSolhan/retro-game-patches/releases/tag/lego-battles-korean--v1.0): 최초 배포. CP62 최신 번역·폰트·이미지 반영, 사용자가 메뉴 및 미션 약 두 개 실행 검수. 원본 ROM 미포함, SHA 검증형 Windows 패처와 단일 BPS 제공.

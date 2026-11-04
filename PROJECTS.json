@@ -130,9 +130,13 @@
       "id": "re0-modern",
       "title": "바이오하자드 제로 모던 컨트롤",
       "platform": "게임큐브",
-      "current_public_version": null,
-      "download_url": null,
-      "category": "편의기능 패치"
+      "current_public_version": "v1.0",
+      "download_url": "https://github.com/JayerSolhan/retro-game-patches/releases/tag/re0-modern--v1.0",
+      "category": "편의기능 패치",
+      "current_package": "BIOHAZARD_ZERO_modern_control_GBZJ08.zip",
+      "package_date": "2026-11-05",
+      "package_sha256": "9c5da31c0264ff7cc1098813b3a6a9a661b11d7cd1f07b7f07b12cfd09faea02",
+      "edition_note": "GBZJ08 Rev0; Disc 1 INI + 영구 패처 실게임 PASS; Disc 2 실행코드 정적 PASS, 런타임/교체 미검증; 동시 적용 금지"
     },
     {
       "id": "remake-modern",

@@ -23,12 +23,14 @@
 | 사일런트 힐 1 모던 컨트롤 | PS1 | v1.0 | [일본판](https://github.com/JayerSolhan/retro-game-patches/releases/download/sh1-modern--v1.0/sh1-modern-v1.0-FINAL_R5_20260914.zip) · [북미판](https://github.com/JayerSolhan/retro-game-patches/releases/download/sh1-modern--v1.0/SH1_USA_KO_SLUS00707_R8_COMPLETE_v1.0.zip) |
 | 디노 크라이시스 1 모던 컨트롤 | PS1 | v0.16 | [0914 최종본](https://github.com/JayerSolhan/retro-game-patches/releases/download/dc1-modern--v0.16/dc1-modern-v0.16-FINAL_R5_20260914.zip) |
 | 디노 크라이시스 2 모던 컨트롤 | PS1 | v1.0 | [0914 최종본](https://github.com/JayerSolhan/retro-game-patches/releases/download/dc2-modern--v1.0/dc2-modern-v1.0-FINAL_R5_20260914.zip) |
-| 바이오하자드 제로 모던 컨트롤 | 게임큐브 | 개발·검토 중 | 게시 전 |
+| 바이오하자드 제로 모던 컨트롤 | 게임큐브 | v1.0 | [다운로드](https://github.com/JayerSolhan/retro-game-patches/releases/download/re0-modern--v1.0/BIOHAZARD_ZERO_modern_control_GBZJ08.zip) |
 | 바이오하자드 리버스 모던 컨트롤 | 게임큐브 | v1.0 | [다운로드](https://github.com/JayerSolhan/retro-game-patches/releases/tag/remake-modern--v1.0) |
 | 바이오하자드 코드 베로니카 모던 컨트롤 | PS2 | v1.0 | [다운로드](https://github.com/JayerSolhan/retro-game-patches/releases/tag/cv-modern--v1.0) |
 | 귀무자 2 모던 컨트롤 | PS2 | v1.0 | [다운로드](https://github.com/JayerSolhan/retro-game-patches/releases/tag/onimusha2-modern--v1.0) |
 | 바이오하자드 4 조준 중 이동·사격 | PS2 | v1.0 | [다운로드](https://github.com/JayerSolhan/retro-game-patches/releases/tag/re4-modern--v1.0) |
 | 패러사이트 이브 2 모던 컨트롤 | PS1 | v1.0 | [다운로드](https://github.com/JayerSolhan/retro-game-patches/releases/tag/pe2-modern--v1.0) |
+
+바이오하자드 제로(GBZJ08 Rev0)는 Dolphin INI 및 Windows 영구 패처를 함께 제공합니다. 두 방식을 동시에 사용하지 마세요. **디스크 1 사용자 실게임 검증 PASS, 디스크 2는 정적 검사 PASS·실게임 미검증**입니다.
 
 미궁 X 릴리스에는 **한글패치 ZIP**과 선택 도구인 **초상화·보이스 교체기 ZIP**이 각각 들어 있습니다. RE1 디렉터스 컷은 **듀얼쇼크판**이 배포되어 있으며 **일반판은 별도 개발 중**입니다.
 

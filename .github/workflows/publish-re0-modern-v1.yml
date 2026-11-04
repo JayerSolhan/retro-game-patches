@@ -1,0 +1,41 @@
+name: Publish BIOHAZARD ZERO modern_control v1.0
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'release-build/re0-modern/v1.0/parts/**'
+      - 'release-build/re0-modern/v1.0/RELEASE_NOTES_KO.md'
+      - '.github/workflows/publish-re0-modern-v1.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Reassemble and verify distributable
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p release-dist
+          cat release-build/re0-modern/v1.0/parts/part_*.bin > release-dist/BIOHAZARD_ZERO_modern_control_GBZJ08.zip
+          echo '9c5da31c0264ff7cc1098813b3a6a9a661b11d7cd1f07b7f07b12cfd09faea02  release-dist/BIOHAZARD_ZERO_modern_control_GBZJ08.zip' | sha256sum -c -
+          unzip -t release-dist/BIOHAZARD_ZERO_modern_control_GBZJ08.zip > /dev/null
+      - name: Create or update GitHub Release
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          tag='re0-modern--v1.0'
+          asset='release-dist/BIOHAZARD_ZERO_modern_control_GBZJ08.zip'
+          notes='release-build/re0-modern/v1.0/RELEASE_NOTES_KO.md'
+          if gh release view "$tag" >/dev/null 2>&1; then
+            gh release upload "$tag" "$asset" --clobber
+          else
+            gh release create "$tag" "$asset" --target main --title 'BIOHAZARD ZERO modern_control v1.0' --notes-file "$notes"
+          fi
