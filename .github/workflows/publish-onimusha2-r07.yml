@@ -1,0 +1,60 @@
+name: Publish ONIMUSHA2 modern_control R07
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'release-build/onimusha2/R07/parts/**'
+      - 'release-build/onimusha2/R07/RELEASE_NOTES_KO.md'
+      - '.github/workflows/publish-onimusha2-r07.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Reassemble and verify full release ZIP
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p release-dist
+          zip="release-dist/ONIMUSHA2_modern_control_R07.zip"
+          : > "$zip"
+          for part in release-build/onimusha2/R07/parts/part_*.b64; do
+            base64 --decode "$part" >> "$zip"
+          done
+          printf '%s  %s\n' 'c9afc2eed73f877d8fbef90748f9011fd41c672d6c0b7e0985f46c20fcf02fde' "$zip" | sha256sum -c -
+          unzip -t "$zip" >/dev/null
+          python3 - "$zip" <<'PY'
+          import sys,zipfile
+          z=zipfile.ZipFile(sys.argv[1])
+          names=set(z.namelist())
+          required={'CHEATS/106A1E75.pnach','_PATCHER/modern_control.exe','_PATCHER/patch_manifest.csv','_PATCHER/_TOOLS/chdman.exe','PATCH_ONIMUSHA2.bat','README_KO.txt'}
+          assert required<=names,required-names
+          cheat=z.read('CHEATS/106A1E75.pnach').decode('utf-8-sig')
+          assert len([x for x in cheat.splitlines() if x.startswith('patch=1,EE,')])==823
+          assert '[modern_control R07]' in cheat
+          for addr in ('0013E7B8','002694CC','00269620','00269678'):
+              assert not any(x.startswith('patch=1,EE,'+addr+',') for x in cheat.splitlines())
+          print('ZIP integrity and gameplay patch guards: PASS')
+          PY
+      - name: Publish new R07 release (never overwrite an existing release)
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          tag='onimusha2-modern--R07'
+          asset="release-dist/ONIMUSHA2_modern_control_R07.zip"
+          notes='release-build/onimusha2/R07/RELEASE_NOTES_KO.md'
+          if gh release view "$tag" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            echo "Release already exists: refusing overwrite" >&2
+            exit 1
+          fi
+          gh release create "$tag" "$asset" --repo "$GITHUB_REPOSITORY" --target main --title '귀무자 2 modern_control R07' --notes-file "$notes" --latest=false
+          gh release view "$tag" --repo "$GITHUB_REPOSITORY" --json name,tagName,assets,url
