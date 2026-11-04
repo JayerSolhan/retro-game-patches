@@ -26,7 +26,7 @@
 | 바이오하자드 제로 모던 컨트롤 | 게임큐브 | v1.0 | [다운로드](https://github.com/JayerSolhan/retro-game-patches/releases/tag/re0-modern--v1.0) |
 | 바이오하자드 리버스 모던 컨트롤 | 게임큐브 | v1.0 | [다운로드](https://github.com/JayerSolhan/retro-game-patches/releases/tag/remake-modern--v1.0) |
 | 바이오하자드 코드 베로니카 모던 컨트롤 | PS2 | v1.0 | [다운로드](https://github.com/JayerSolhan/retro-game-patches/releases/tag/cv-modern--v1.0) |
-| 귀무자 2 모던 컨트롤 | PS2 | v1.0 | [다운로드](https://github.com/JayerSolhan/retro-game-patches/releases/tag/onimusha2-modern--v1.0) |
+| 귀무자 2 모던 컨트롤 | PS2 | R07 | [다운로드](https://github.com/JayerSolhan/retro-game-patches/releases/tag/onimusha2-modern--R07) |
 | 바이오하자드 4 조준 중 이동·사격 | PS2 | v1.0 | [다운로드](https://github.com/JayerSolhan/retro-game-patches/releases/tag/re4-modern--v1.0) |
 | 패러사이트 이브 2 모던 컨트롤 | PS1 | v1.0 | [다운로드](https://github.com/JayerSolhan/retro-game-patches/releases/tag/pe2-modern--v1.0) |
 
