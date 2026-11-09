@@ -32,7 +32,8 @@
 | 바이오하자드 리버스 모던 컨트롤 | 게임큐브 | v1.0 | 2026-10-24 | [다운로드](https://github.com/JayerSolhan/retro-game-patches/releases/tag/remake-modern--v1.0) |
 | 바이오하자드 제로 모던 컨트롤 | 게임큐브 | v1.0 | 2026-11-05 | [다운로드](https://github.com/JayerSolhan/retro-game-patches/releases/tag/re0-modern--v1.0) |
 | 바이오하자드 코드 베로니카 모던 컨트롤 | PS2 | v1.0 | 2026-10-03 | [다운로드](https://github.com/JayerSolhan/retro-game-patches/releases/tag/cv-modern--v1.0) |
-| 사일런트 힐 1 모던 컨트롤 | PS1 | v1.0 | 2026-10-22 | [일본판(바이오스 필요)](https://github.com/JayerSolhan/retro-game-patches/releases/download/sh1-modern--v1.0/sh1-modern-v1.0-FINAL_R5_20260914.zip) · [북미판](https://github.com/JayerSolhan/retro-game-patches/releases/download/sh1-modern--v1.0/SH1_USA_KO_SLUS00707_R8_COMPLETE_v1.0.zip) |
+| 사일런트 힐 1 일본판(바이오스 필요) 모던 컨트롤 | PS1 | v1.0 | 2026-10-22 | [다운로드](https://github.com/JayerSolhan/retro-game-patches/releases/download/sh1-modern--v1.0/sh1-modern-v1.0-FINAL_R5_20260914.zip) |
+| 사일런트 힐 1 북미판 모던 컨트롤 | PS1 | v1.0 | 2026-10-22 | [다운로드](https://github.com/JayerSolhan/retro-game-patches/releases/download/sh1-modern--v1.0/SH1_USA_KO_SLUS00707_R8_COMPLETE_v1.0.zip) |
 | 패러사이트 이브 2 모던 컨트롤 | PS1 | v1.0 | 2026-10-05 | [다운로드](https://github.com/JayerSolhan/retro-game-patches/releases/tag/pe2-modern--v1.0) |
 
 바이오하자드 제로(GBZJ08 Rev0)는 Dolphin INI 및 Windows 영구 패처를 함께 제공합니다. 두 방식을 동시에 사용하지 마세요. **디스크 1 사용자 실게임 검증 PASS, 디스크 2는 정적 검사 PASS·실게임 미검증**입니다.
