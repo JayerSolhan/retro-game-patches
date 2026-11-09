@@ -1,0 +1,104 @@
+name: Sanitize Dark Spire v1.0 release credits
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/sanitize-dark-spire-v1-release.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sanitize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Rebuild validated archive without contributor names
+        shell: bash
+        run: |
+          set -euo pipefail
+          parts='release-build/dark-spire/v1.0/parts'
+          test "$(find "$parts" -maxdepth 1 -name 'part_*.bin' -type f | wc -l)" -eq 9
+          cat "$parts"/part_{00..08}.bin > /tmp/darkspire-original.zip
+          echo 'b903abbbd28ea2be0a92605d16bb7a02734dae5926c7c31e7b5744ec4c642028  /tmp/darkspire-original.zip' | sha256sum -c -
+          python3 - <<'PY'
+          from pathlib import Path
+          from zipfile import ZipFile
+          import hashlib
+          import re
+
+          source = Path('/tmp/darkspire-original.zip')
+          target = Path('/tmp/DarkSpire_Korean_v1.0_PATCH.zip')
+          old_sha = 'b903abbbd28ea2be0a92605d16bb7a02734dae5926c7c31e7b5744ec4c642028'
+          new_sha = 'aeeae7ae15b6fbba935bebed09e3118721a554a910444369c4824c3ec3d8273a'
+          with ZipFile(source) as zin:
+              names = zin.namelist()
+              assert names == ['DarkSpire_Korean_Patcher.exe','DarkSpire_USA_to_Korean_v1.0.bps','PATCH.bat','README_KO.txt','SHA256SUMS.txt','배포문_KO.txt']
+              entries = {info.filename: (info, zin.read(info)) for info in zin.infolist()}
+              readme = entries['README_KO.txt'][1].decode('utf-8')
+              notice = entries['배포문_KO.txt'][1].decode('utf-8')
+              a = '기획·QA·배포: JayerSolhan\n작업 지원: OpenAI ChatGPT 및 Codex'
+              b = '기획·검수·배포: JayerSolhan / 제작 지원: OpenAI ChatGPT · Codex'
+              assert readme.count(a) == 1 and notice.count(b) == 1
+              entries['README_KO.txt'] = (entries['README_KO.txt'][0], (readme.replace(a,'').rstrip()+'\n').encode('utf-8'))
+              entries['배포문_KO.txt'] = (entries['배포문_KO.txt'][0], (notice.replace(b,'').rstrip()+'\n').encode('utf-8'))
+              sums = entries['SHA256SUMS.txt'][1].decode('utf-8')
+              for name in ['README_KO.txt','배포문_KO.txt']:
+                  digest = hashlib.sha256(entries[name][1]).hexdigest()
+                  sums, n = re.subn(r'(?m)^[0-9a-f]{64}  ' + re.escape(name) + r'$', digest + '  ' + name, sums)
+                  assert n == 1
+              entries['SHA256SUMS.txt'] = (entries['SHA256SUMS.txt'][0], sums.encode('utf-8'))
+              with ZipFile(target, 'w') as zout:
+                  zout.comment = zin.comment
+                  for name in names:
+                      info, content = entries[name]
+                      zout.writestr(info, content)
+          assert hashlib.sha256(target.read_bytes()).hexdigest() == new_sha
+          with ZipFile(source) as old, ZipFile(target) as new:
+              for name in ['DarkSpire_Korean_Patcher.exe','DarkSpire_USA_to_Korean_v1.0.bps','PATCH.bat']:
+                  assert old.read(name) == new.read(name), name
+              assert hashlib.sha256(new.read('DarkSpire_USA_to_Korean_v1.0.bps')).hexdigest() == '7477b6fd76388793001933ce7e57a7cf56f78cff87fd83bda098f2f57a47b9dc'
+              for name in names:
+                  for term in [b'JayerSolhan', b'OpenAI ChatGPT', b'Codex']:
+                      assert term not in new.read(name), name
+              for line in new.read('SHA256SUMS.txt').decode('utf-8').splitlines():
+                  digest, name = line.split('  ', 1)
+                  assert hashlib.sha256(new.read(name)).hexdigest() == digest, name
+
+          for name in ['downloads/dark-spire-korean/v1.0/README.md', 'downloads/dark-spire-korean/v1.0/RELEASE_NOTES_KO.md']:
+              p=Path(name)
+              text=p.read_text(encoding='utf-8')
+              text=text.replace(old_sha, new_sha)
+              text=text.replace('5,044,506바이트','5,061,189바이트')
+              text=text.replace('**기획·검수·배포:** JayerSolhan · **제작 지원:** OpenAI ChatGPT / Codex', '').rstrip()+'\n'
+              assert old_sha not in text
+              if name.endswith('RELEASE_NOTES_KO.md'):
+                  assert 'JayerSolhan' not in text and '제작 지원' not in text
+              p.write_text(text,encoding='utf-8')
+          PY
+          echo 'aeeae7ae15b6fbba935bebed09e3118721a554a910444369c4824c3ec3d8273a  /tmp/DarkSpire_Korean_v1.0_PATCH.zip' | sha256sum -c -
+          unzip -t /tmp/DarkSpire_Korean_v1.0_PATCH.zip
+      - name: Replace public archive and release notes
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          tag='dark-spire-korean--v1.0'
+          gh release view "$tag" >/dev/null
+          gh release upload "$tag" /tmp/DarkSpire_Korean_v1.0_PATCH.zip --clobber
+          gh release edit "$tag" --notes-file downloads/dark-spire-korean/v1.0/RELEASE_NOTES_KO.md
+          gh api "repos/JayerSolhan/retro-game-patches/releases/tags/$tag" --jq '.assets[] | select(.name=="DarkSpire_Korean_v1.0_PATCH.zip") | [.size,.digest] | @tsv' | grep -Fx '5061189	sha256:aeeae7ae15b6fbba935bebed09e3118721a554a910444369c4824c3ec3d8273a'
+      - name: Commit corrected download documentation
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add downloads/dark-spire-korean/v1.0/README.md downloads/dark-spire-korean/v1.0/RELEASE_NOTES_KO.md
+          git diff --cached --quiet && exit 0
+          git commit -m "docs: remove attribution from Dark Spire v1.0 release"
+          git push origin HEAD:main
