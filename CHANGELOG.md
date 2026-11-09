@@ -1,5 +1,10 @@
 # 공개 배포 이력
 
+## 2026-11-10
+
+- [세계수의 미궁 한국어 패치 v1.0](https://github.com/JayerSolhan/retro-game-patches/releases/tag/eo1-korean--v1.0): 최초 배포. 일본판 Rev0용 xdelta, 한글 지도 메모·상점 프리뷰·한글 길드명/패스워드.
+- [세계수의 미궁 II 한국어 패치 v1.0](https://github.com/JayerSolhan/retro-game-patches/releases/tag/eo2-korean--v1.0): 최초 배포. 일본판 Rev1용 xdelta, 한글 길드명/패스워드.
+
 ## 2026-11-05
 
 - [귀무자 2 한국판 modern_control R07](https://github.com/JayerSolhan/retro-game-patches/releases/tag/onimusha2-modern--R07): 기존 R06 RC2 이후 R1 카메라 기준 근접 스텝·원거리 원작 조준 보호 추가. 치트와 Windows 독립형 ISO/CD CHD/DVD CHD 영구패처 통합. 게임플레이 원형(P04) 사용자 검수 PASS, R07 배포 재포장 실게임 재검증 미수행.
