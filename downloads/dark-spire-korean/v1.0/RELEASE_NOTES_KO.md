@@ -15,10 +15,8 @@ ZIP 압축을 푼 뒤 Windows 64비트에서는 정품 북미판 원본 `.nds`�
 | USA 원본 (32MiB) | `3152b94c8f7e5a4b0d5582db74ace7e120afe1f6a95ee83b22c517ff1c4f9092` | `F07DEF81` |
 | 최종 한국어 ROM (32MiB) | `9e90e78963697ccbb3ad3827e33369c931ad6a8cf73d1da256565e4502235753` | `7AFE3CB7` |
 
-배포 ZIP SHA-256: `b903abbbd28ea2be0a92605d16bb7a02734dae5926c7c31e7b5744ec4c642028`
+배포 ZIP SHA-256: `aeeae7ae15b6fbba935bebed09e3118721a554a910444369c4824c3ec3d8273a`
 
 실게임 QA는 사용자 지정 검수 범위에서 PASS이며, 전체 게임 완주·모든 실물 기기 환경의 전수 검증은 아닙니다. Windows용 패처는 교차 빌드되었고 Linux의 동일 Go 소스 패처 적용이 검증됐으나, Windows 실환경 실행 증거는 없습니다.
 
 비공식 팬 제작물입니다. 게임 ROM·BIOS·세이브는 제공하지 않으며 정당하게 보유한 북미판 원본에 적용하세요. 원작의 저작권과 상표권은 각 권리자에게 있습니다.
-
-**기획·검수·배포:** JayerSolhan · **제작 지원:** OpenAI ChatGPT / Codex
