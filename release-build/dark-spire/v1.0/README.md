@@ -8,4 +8,6 @@ Exactly 9 binary parts, in ascending numerical order. GitHub Actions verifies th
 
 ## Current official release
 
-The 9 parts above preserve the **initial** archive exactly for provenance. The currently downloadable v1.0 GitHub Release ZIP has been repackaged to omit contributor-name lines in README_KO.txt and 배포문_KO.txt, with updated SHA256SUMS.txt. Its size is **5,061,189 bytes** and SHA-256 is **`aeeae7ae15b6fbba935bebed09e3118721a554a910444369c4824c3ec3d8273a`**. The BPS, Windows patcher executable, and PATCH.bat payloads are byte-for-byte unchanged. The initial archive fragments are not the current downloadable release ZIP.
+The nine parts above preserve the **initial** archive exactly as historical evidence and are not the current downloadable ZIP. The live v1.0 GitHub Release excludes `배포문_KO.txt` (a separate forum-post draft), removes attribution lines, and updates the README file list and `SHA256SUMS.txt`. It includes exactly 5 files: `DarkSpire_Korean_Patcher.exe`, `DarkSpire_USA_to_Korean_v1.0.bps`, `PATCH.bat`, `README_KO.txt`, `SHA256SUMS.txt`.
+
+Live ZIP size **5,060,086 bytes**; SHA-256 **`e7d03338fcfdc3697bf87cd5f368eb8752dff14355349b8e1e6404c665b1e91c`**. The BPS, Windows EXE, and BAT are byte-for-byte unchanged. The publishing workflow verifies the final ZIP hash and GitHub Release asset digest.
