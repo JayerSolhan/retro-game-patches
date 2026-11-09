@@ -1,0 +1,73 @@
+name: Publish EO1 and EO2 Korean v1.0
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'downloads/eo1-korean/v1.0/Sekaiju_no_Meikyuu_Korean_v1.0.zip'
+      - 'downloads/eo2-korean/v1.0/Sekaiju_no_Meikyuu_II_Korean_v1.0.zip'
+      - '.github/workflows/publish-eo12-v1.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - tag: eo1-korean--v1.0
+            title: '세계수의 미궁 한국어 패치 v1.0'
+            asset: downloads/eo1-korean/v1.0/Sekaiju_no_Meikyuu_Korean_v1.0.zip
+            notes: downloads/eo1-korean/v1.0/RELEASE_NOTES_KO.md
+            sha256: '6ed66ea5cc6871d80e6abd70d9cab43cc2a97d0bc8041430b4d9ee5e1ca8a06b'
+            xdelta: EO1_Korean.xdelta
+          - tag: eo2-korean--v1.0
+            title: '세계수의 미궁 II 한국어 패치 v1.0'
+            asset: downloads/eo2-korean/v1.0/Sekaiju_no_Meikyuu_II_Korean_v1.0.zip
+            notes: downloads/eo2-korean/v1.0/RELEASE_NOTES_KO.md
+            sha256: 'f0f69bdb16506933fe003ef08191662359f7ae7ec45fb058aa0884709a2676a9'
+            xdelta: EO2_Korean.xdelta
+
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify exact ROM-free archives
+        shell: bash
+        env:
+          ASSET: ${{ matrix.asset }}
+          SHA256: ${{ matrix.sha256 }}
+          XDELTA: ${{ matrix.xdelta }}
+        run: |
+          set -euo pipefail
+          printf '%s  %s\n' "$SHA256" "$ASSET" | sha256sum -c -
+          python3 - <<'PY'
+          import os,zipfile
+          with zipfile.ZipFile(os.environ["ASSET"]) as z:
+              assert z.testzip() is None
+              assert set(z.namelist()) == {os.environ["XDELTA"],"README_KO.txt"}
+              assert z.read(os.environ["XDELTA"]).startswith(bytes.fromhex("d6c3c400"))
+              text=z.read("README_KO.txt").decode("utf-8")
+              assert "원본 SHA-256:" in text and "적용 결과 SHA-256:" in text
+          PY
+      - name: Publish independent release, never overwrite a different asset
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ matrix.tag }}
+          TITLE: ${{ matrix.title }}
+          ASSET: ${{ matrix.asset }}
+          NOTES: ${{ matrix.notes }}
+          SHA256: ${{ matrix.sha256 }}
+        run: |
+          set -euo pipefail
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            mkdir -p /tmp/eo_existing
+            gh release download "$TAG" --pattern "$(basename "$ASSET")" --dir /tmp/eo_existing
+            printf '%s  %s\n' "$SHA256" "/tmp/eo_existing/$(basename "$ASSET")" | sha256sum -c -
+            echo 'Existing release asset matches; no overwrite needed.'
+          else
+            gh release create "$TAG" "$ASSET" --target main --title "$TITLE" --notes-file "$NOTES"
+          fi
