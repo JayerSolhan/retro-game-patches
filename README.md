@@ -8,7 +8,7 @@
 
 | 프로젝트 | 기종 | 배포 버전 | 최종 배포일 | 다운로드 |
 |---|---|---|---|---|
-| 다크 스파이어 한국어 패치 | 닌텐도 DS | v1.0 (파일 업로드 대기) | — | [안내](downloads/dark-spire-korean/v1.0/README.md) |
+| 다크 스파이어 한국어 패치 | 닌텐도 DS | v1.0 | 2026-11-09 | [다운로드](https://github.com/JayerSolhan/retro-game-patches/releases/tag/dark-spire-korean--v1.0) |
 | 드래곤 나이트 & 그래피티 한글패치 | PC엔진 CD | v1.0 | 2026-10-20 | [다운로드](https://github.com/JayerSolhan/retro-game-patches/releases/tag/dragon-knight-korean--v1.0) |
 | 레고 배틀즈 한국어 패치 | 닌텐도 DS | v1.0 | 2026-10-29 | [다운로드](https://github.com/JayerSolhan/retro-game-patches/releases/tag/lego-battles-korean--v1.0) |
 | 마이트 앤 매직: 클래시 오브 히어로즈 한글패치 | 닌텐도 DS | v1.0 | 2026-10-25 | [다운로드](https://github.com/JayerSolhan/retro-game-patches/releases/tag/mm-coh-korean--v1.0) |
