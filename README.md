@@ -15,7 +15,7 @@
 | 세계수의 미궁 한국어 패치 | 닌텐도 DS | v1.0 | 2026-11-10 | [다운로드](https://github.com/JayerSolhan/retro-game-patches/releases/tag/eo1-korean--v1.0) |
 | 세계수의 미궁 II 한국어 패치 | 닌텐도 DS | v1.0 | 2026-11-10 | [다운로드](https://github.com/JayerSolhan/retro-game-patches/releases/tag/eo2-korean--v1.0) |
 | 세계수의 미궁 III 한글패치 | 닌텐도 DS | v1.0.1 | 2026-09-13 | [다운로드](https://github.com/JayerSolhan/retro-game-patches/releases/tag/eo3-korean--v1.0.1) |
-| 세계수의 미궁 X 한글패치 | 닌텐도 3DS | v1.0.4 | 2026-11-04 | [한글패치 · 교체기](https://github.com/JayerSolhan/retro-game-patches/releases/tag/eon-korean--v1.0.4) |
+| 세계수의 미궁 X 한글패치 | 닌텐도 3DS | v1.0.5 | 2026-11-04 | [한글패치 · 교체기](https://github.com/JayerSolhan/retro-game-patches/releases/tag/eon-korean--v1.0.5) |
 | 투하트2 던전 트래블러즈 한글패치 | PSP | v1.0 | 2026-10-22 | [다운로드](https://github.com/JayerSolhan/retro-game-patches/releases/tag/dungeon-travelers-korean--v1.0) |
 
 ## 편의기능 패치

@@ -44,3 +44,5 @@
 - [세계수의 미궁 X 한글패치 v1.0.3](https://github.com/JayerSolhan/retro-game-patches/releases/tag/eon-korean--v1.0.3)
 
 - [세계수의 미궁 X 한글패치 v1.0.4](https://github.com/JayerSolhan/retro-game-patches/releases/tag/eon-korean--v1.0.4)
+
+- [세계수의 미궁 X 한글패치 v1.0.5](https://github.com/JayerSolhan/retro-game-patches/releases/tag/eon-korean--v1.0.5)
