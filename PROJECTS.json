@@ -24,17 +24,21 @@
       "id": "eo2-korean",
       "title": "세계수의 미궁 II 한국어 패치",
       "platform": "닌텐도 DS",
-      "current_public_version": "v1.0",
+      "current_public_version": "v1.1",
       "category": "한글패치",
-      "download_url": "https://github.com/JayerSolhan/retro-game-patches/releases/tag/eo2-korean--v1.0",
+      "download_url": "https://github.com/JayerSolhan/retro-game-patches/releases/tag/eo2-korean--v1.1",
       "direct_download_url": "https://github.com/JayerSolhan/retro-game-patches/releases/download/eo2-korean--v1.0/Sekaiju_no_Meikyuu_II_Korean_v1.0.zip",
       "current_package": "Sekaiju_no_Meikyuu_II_Korean_v1.0.zip",
-      "package_date": "2026-11-10",
+      "package_date": "2026-11-18",
       "package_sha256": "f0f69bdb16506933fe003ef08191662359f7ae7ec45fb058aa0884709a2676a9",
       "input_rom_sha256": "3e9876f8b4ad5634434424768e06c81d302d5d93d13efb25c13e750149419618",
       "output_rom_sha256": "8fd5d5f55a86ef143d555c66c3c455a37224ee6d507ec0d1fb6f701ff470eb6d",
       "original_edition": "Japan Rev1",
-      "screen_qa": "USER_PASS_2026-11-10"
+      "screen_qa": "USER_PASS_2026-11-10",
+      "release_assets": [
+        "Sekaiju_no_Meikyuu_II_Korean_v1.1.zip",
+        "SHA256SUMS.txt"
+      ]
     },
     {
       "id": "eo3-korean",
