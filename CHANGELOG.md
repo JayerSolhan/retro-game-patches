@@ -50,3 +50,5 @@
 - [세계수의 미궁 한국어 패치 v1.1](https://github.com/JayerSolhan/retro-game-patches/releases/tag/eo1-korean--v1.1)
 
 - [세계수의 미궁 II 한국어 패치 v1.1](https://github.com/JayerSolhan/retro-game-patches/releases/tag/eo2-korean--v1.1)
+
+- [세계수의 미궁 X v1.0.5 용어 수정본 (2026-11-17)](https://github.com/JayerSolhan/retro-game-patches/releases/download/eon-korean--v1.0.5/Etrian_Odyssey_Nexus_Sekaiju_no_Meikyuu_X_Korean_Patch_v1.0.5_20261117.zip)
