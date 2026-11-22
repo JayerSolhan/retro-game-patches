@@ -277,6 +277,25 @@
       "package_date": "2026-10-29",
       "input_rom_sha256": "4d2d71719b4588272cc8f48995f0bd4d9dcb5af0fdb67b0b645c72dcb8dcd489",
       "output_rom_sha256": "073fd17ef87b9a5bde42ddb80cd802d42ddac3ce8958ef117b37957aa4e4ec1d"
+    },
+    {
+      "id": "aeke-korean",
+      "title": "에이지 오브 엠파이어: 에이지 오브 킹즈 한국어 패치",
+      "platform": "닌텐도 DS",
+      "current_public_version": "v1.0",
+      "category": "한글패치",
+      "download_url": "https://github.com/JayerSolhan/retro-game-patches/releases/tag/aeke-korean--v1.0",
+      "direct_download_url": "https://github.com/JayerSolhan/retro-game-patches/releases/download/aeke-korean--v1.0/AEKE_Korean_Patch_v1.0_20261123.zip",
+      "current_package": "AEKE_Korean_Patch_v1.0_20261123.zip",
+      "package_date": "2026-11-23",
+      "package_sha256": "ce7016efb524b501a3f2fdd2d4f27e7ec88a497e31743d287b9c55e191608193",
+      "input_rom_sha256": "c35ccdee3868a97d59913650587c9998b254f9b7cba64936005b49466058791c",
+      "output_rom_sha256": "a4d208a615e8787111de9182e4c9ebd5f49f72ff002d1fd8537d227e5d27b26d",
+      "original_edition": "USA Rev00",
+      "release_assets": [
+        "AEKE_Korean_Patch_v1.0_20261123.zip",
+        "SHA256SUMS.txt"
+      ]
     }
   ]
 }

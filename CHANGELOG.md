@@ -1,5 +1,9 @@
 # 공개 배포 이력
 
+## 2026-11-23
+
+- [에이지 오브 엠파이어: 에이지 오브 킹즈 한국어 패치 v1.0](https://github.com/JayerSolhan/retro-game-patches/releases/tag/aeke-korean--v1.0): 최초 배포. 북미판 AEKE Rev00용 BPS와 SHA 검증형 Windows 패처(PowerShell) 제공. 게임 문구 한국어화, 한글 글꼴, 진행 중 멈춤 문제 수정. 튜토리얼 설명 그림 일부는 영어 유지. 원본 ROM 미포함.
+
 ## 2026-11-10
 
 - [세계수의 미궁 한국어 패치 v1.0](https://github.com/JayerSolhan/retro-game-patches/releases/tag/eo1-korean--v1.0): 최초 배포. 일본판 Rev0용 xdelta, 한글 지도 메모·상점 프리뷰·한글 길드명/패스워드.
