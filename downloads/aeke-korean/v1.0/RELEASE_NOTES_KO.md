@@ -10,8 +10,8 @@
 ZIP을 풀고 Windows에서는 북미판 원본 `.nds` 파일을 `PATCH_AEKE.bat` 위에 끌어다 놓으세요. 다른 운영체제에서는 `AEKE_USA_to_KO_v1.0.bps` 파일을 BPS 패처로 적용하세요. Python은 필요 없습니다.
 
 - **원본 SHA-256:** `c35ccdee3868a97d59913650587c9998b254f9b7cba64936005b49466058791c`
-- **패치 후 SHA-256:** `a4d208a615e8787111de9182e4c9ebd5f49f72ff002d1fd8537d227e5d27b26d`
-- **배포 ZIP SHA-256:** `c96ac0e082c6517f88a6183a0da0a5c5b97b46a68c5445bfee6a3f04436c4af3`
+- **패치 후 SHA-256:** `f2f41b969885e3c75cdad38b688aa2ca4464249fae1ee23ca68b2bb252e4276f`
+- **배포 ZIP SHA-256:** `9df501c030ceb1342635e63462b7e9beeb56985b6e3174cfb8a8ce6a2faa0029`
 
 게임 롬·BIOS·세이브는 들어 있지 않습니다. 에뮬레이터에서 확인했으며 실물 NDS 기기 동작은 보장하지 않습니다. 패치 전에 세이브를 백업하세요.
 

@@ -6,4 +6,4 @@
 
 자세한 사용법은 ZIP 안의 `README_KO.txt`를 참고하세요. 게임 ROM과 세이브는 포함되지 않습니다.
 
-배포 ZIP SHA-256: `c96ac0e082c6517f88a6183a0da0a5c5b97b46a68c5445bfee6a3f04436c4af3`
+배포 ZIP SHA-256: `9df501c030ceb1342635e63462b7e9beeb56985b6e3174cfb8a8ce6a2faa0029`
