@@ -6,10 +6,24 @@
 - 한글 글꼴 추가
 - DS 다운로드 플레이로 게임을 받는 쪽 기기 화면은 영어로 표시됩니다.
 
+## 원본 파일 정보 (이 파일에만 적용됨)
+| 항목 | 값 |
+|---|---|
+| 게임 | Age of Empires: Mythologies 북미판 (영어·프랑스어) |
+| 흔히 쓰는 파일명 | `Age of Empires - Mythologies (USA) (En,Fr).nds` |
+| 게임 코드 | `CEPE` (제품 번호 NTR-CEPE-USA) |
+| 내부 제목 / 제작사 코드 / 리비전 | `AOE_MYTH` / `78` (THQ) / 0 |
+| 크기 | 134,217,728 바이트 (128MiB, 트리밍 안 된 원본) |
+| CRC32 | `0297F9EA` |
+| MD5 | `51f007f5464164459e93c2d2e46128b9` |
+| SHA-1 | `1ca981af55afe0d05aee25d85f66786c325afe67` |
+| SHA-256 | `7472036c2fa3b1adb62582f2237901b30bf3860a6ff0ac794ba6e523434edb8f` |
+
+파일 이름은 달라도 되지만 해시는 같아야 합니다. 트리밍한 롬은 크기와 해시가 달라 적용되지 않습니다.
+
 ## 적용
 ZIP을 풀고 Windows에서는 북미판 원본 `.nds` 파일을 `PATCH_AOEM.bat` 위에 끌어다 놓으세요. 다른 운영체제에서는 `AOEM_USA_to_KO_v1.0.bps` 파일을 BPS 패처로 적용하세요. Python은 필요 없습니다.
 
-- **원본 SHA-256:** `7472036c2fa3b1adb62582f2237901b30bf3860a6ff0ac794ba6e523434edb8f`
 - **패치 후 SHA-256:** `b16ae295ed33a75ab7fb5c91d8399465151fa6ca7af0434c4c422ca5fe2c99dd`
 - **배포 ZIP SHA-256:** `e0591fd2f711cfd9566530c1ea35957da98885564d13e3d5d81681f25dd325ed`
 
