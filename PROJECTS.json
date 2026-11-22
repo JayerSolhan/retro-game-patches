@@ -42,7 +42,7 @@
     },
     {
       "id": "eo3-korean",
-      "title": "세계수의 미궁 3 한글패치",
+      "title": "세계수의 미궁 3 한국어 패치",
       "platform": "닌텐도 DS",
       "current_public_version": "v1.0.1",
       "download_url": "https://github.com/JayerSolhan/retro-game-patches/releases/tag/eo3-korean--v1.0.1",
@@ -224,7 +224,7 @@
     },
     {
       "id": "dungeon-travelers-korean",
-      "title": "투하트2 던전 트래블러즈 한글패치",
+      "title": "투하트2 던전 트래블러즈 한국어 패치",
       "platform": "PSP",
       "current_public_version": "v1.0",
       "download_url": "https://github.com/JayerSolhan/retro-game-patches/releases/tag/dungeon-travelers-korean--v1.0",
@@ -232,7 +232,7 @@
     },
     {
       "id": "dragon-knight-korean",
-      "title": "드래곤 나이트 & 그래피티 한글패치",
+      "title": "드래곤 나이트 & 그래피티 한국어 패치",
       "platform": "PC엔진 CD",
       "current_public_version": "v1.0",
       "download_url": "https://github.com/JayerSolhan/retro-game-patches/releases/tag/dragon-knight-korean--v1.0",
@@ -240,7 +240,7 @@
     },
     {
       "id": "eon-korean",
-      "title": "세계수의 미궁 X 한글패치",
+      "title": "세계수의 미궁 X 한국어 패치",
       "platform": "닌텐도 3DS",
       "current_public_version": "v1.0.5",
       "download_url": "https://github.com/JayerSolhan/retro-game-patches/releases/tag/eon-korean--v1.0.5",
@@ -259,7 +259,7 @@
     },
     {
       "id": "mm-coh-korean",
-      "title": "마이트 앤 매직: 클래시 오브 히어로즈 한글패치",
+      "title": "마이트 앤 매직: 클래시 오브 히어로즈 한국어 패치",
       "platform": "닌텐도 DS",
       "current_public_version": "v1.0",
       "download_url": "https://github.com/JayerSolhan/retro-game-patches/releases/tag/mm-coh-korean--v1.0",
@@ -294,6 +294,25 @@
       "original_edition": "USA Rev00",
       "release_assets": [
         "AEKE_Korean_Patch_v1.0_20261123.zip",
+        "SHA256SUMS.txt"
+      ]
+    },
+    {
+      "id": "aoem-korean",
+      "title": "에이지 오브 엠파이어: 미솔로지 한국어 패치",
+      "platform": "닌텐도 DS",
+      "current_public_version": "v1.0",
+      "category": "한글패치",
+      "download_url": "https://github.com/JayerSolhan/retro-game-patches/releases/tag/aoem-korean--v1.0",
+      "direct_download_url": "https://github.com/JayerSolhan/retro-game-patches/releases/download/aoem-korean--v1.0/AOEM_Korean_Patch_v1.0_20261123.zip",
+      "current_package": "AOEM_Korean_Patch_v1.0_20261123.zip",
+      "package_date": "2026-11-23",
+      "package_sha256": "e0591fd2f711cfd9566530c1ea35957da98885564d13e3d5d81681f25dd325ed",
+      "input_rom_sha256": "7472036c2fa3b1adb62582f2237901b30bf3860a6ff0ac794ba6e523434edb8f",
+      "output_rom_sha256": "b16ae295ed33a75ab7fb5c91d8399465151fa6ca7af0434c4c422ca5fe2c99dd",
+      "original_edition": "USA (En,Fr)",
+      "release_assets": [
+        "AOEM_Korean_Patch_v1.0_20261123.zip",
         "SHA256SUMS.txt"
       ]
     }
