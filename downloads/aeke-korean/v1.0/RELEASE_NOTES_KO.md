@@ -9,9 +9,11 @@
 ## 적용
 ZIP을 풀고 Windows에서는 북미판 원본 `.nds` 파일을 `PATCH_AEKE.bat` 위에 끌어다 놓으세요. 다른 운영체제에서는 `AEKE_USA_to_KO_v1.0.bps` 파일을 BPS 패처로 적용하세요. Python은 필요 없습니다.
 
+**필요한 원본 파일:** 닌텐도 DS 북미판 NTR-AEKE-USA (Rev 0), 예: `Age of Empires - The Age of Kings (USA).nds`, 67,108,864바이트
+- CRC32 `F49A566E` · MD5 `5d25798ea86f42ff345c812a0955e656` · SHA-1 `e92b412dd09b826f3d0978bd9c4058e4fc310eee`
 - **원본 SHA-256:** `c35ccdee3868a97d59913650587c9998b254f9b7cba64936005b49466058791c`
 - **패치 후 SHA-256:** `f2f41b969885e3c75cdad38b688aa2ca4464249fae1ee23ca68b2bb252e4276f`
-- **배포 ZIP SHA-256:** `9df501c030ceb1342635e63462b7e9beeb56985b6e3174cfb8a8ce6a2faa0029`
+- **배포 ZIP SHA-256:** `d34d3b342bbb5dd835317f201ec5318fbdd4ff92c94b57153212516f4192a95a`
 
 게임 롬·BIOS·세이브는 들어 있지 않습니다. 에뮬레이터에서 확인했으며 실물 NDS 기기 동작은 보장하지 않습니다. 패치 전에 세이브를 백업하세요.
 
