@@ -247,8 +247,6 @@
       "download_url": "https://github.com/JayerSolhan/retro-game-patches/releases/tag/dragon-knight-2-korean--v1.0",
       "release_assets": [
         "Dragon_Knight_II_Korean_v1.0.zip",
-        "Dragon_Knight_II_Korean_v1_0_BIN.xdelta",
-        "Dragon_Knight_II_Korean_v1.0_xdelta_README_KO.txt",
         "SHA256SUMS.txt"
       ]
     },
