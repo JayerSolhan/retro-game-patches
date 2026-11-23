@@ -17,7 +17,7 @@
 | 세계수의 미궁 II 한국어 패치 | 닌텐도 DS | v1.1 | 2026-11-18 | [다운로드](https://github.com/JayerSolhan/retro-game-patches/releases/tag/eo2-korean--v1.1) |
 | 세계수의 미궁 III 한국어 패치 | 닌텐도 DS | v1.0.1 | 2026-09-13 | [다운로드](https://github.com/JayerSolhan/retro-game-patches/releases/tag/eo3-korean--v1.0.1) |
 | 세계수의 미궁 X 한국어 패치 | 닌텐도 3DS | v1.0.5 | 2026-11-23 | [한글패치 · 교체기](https://github.com/JayerSolhan/retro-game-patches/releases/tag/eon-korean--v1.0.5) |
-| 에이지 오브 엠파이어: 미솔로지 한국어 패치 | 닌텐도 DS | v1.0 | 2026-11-23 | [다운로드](https://github.com/JayerSolhan/retro-game-patches/releases/tag/aoem-korean--v1.0) |
+| 에이지 오브 엠파이어: 미솔로지 한국어 패치 | 닌텐도 DS | v1.0 | 2026-11-24 | [다운로드](https://github.com/JayerSolhan/retro-game-patches/releases/tag/aoem-korean--v1.0) |
 | 에이지 오브 엠파이어: 에이지 오브 킹즈 한국어 패치 | 닌텐도 DS | v1.0 | 2026-11-23 | [다운로드](https://github.com/JayerSolhan/retro-game-patches/releases/tag/aeke-korean--v1.0) |
 | 투하트2 던전 트래블러즈 한국어 패치 | PSP | v1.0 | 2026-10-22 | [다운로드](https://github.com/JayerSolhan/retro-game-patches/releases/tag/dungeon-travelers-korean--v1.0) |
 

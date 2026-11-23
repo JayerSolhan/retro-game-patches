@@ -316,15 +316,15 @@
       "current_public_version": "v1.0",
       "category": "한글패치",
       "download_url": "https://github.com/JayerSolhan/retro-game-patches/releases/tag/aoem-korean--v1.0",
-      "direct_download_url": "https://github.com/JayerSolhan/retro-game-patches/releases/download/aoem-korean--v1.0/AOEM_Korean_Patch_v1.0_20261123.zip",
-      "current_package": "AOEM_Korean_Patch_v1.0_20261123.zip",
-      "package_date": "2026-11-23",
-      "package_sha256": "e0591fd2f711cfd9566530c1ea35957da98885564d13e3d5d81681f25dd325ed",
+      "direct_download_url": "https://github.com/JayerSolhan/retro-game-patches/releases/download/aoem-korean--v1.0/AOEM_Korean_Patch_v1.0_20261124.zip",
+      "current_package": "AOEM_Korean_Patch_v1.0_20261124.zip",
+      "package_date": "2026-11-24",
+      "package_sha256": "fedbd8629e8f7a9db458d5353e26ea2b060ebc4b21264d4b012ab9ff85650c89",
       "input_rom_sha256": "7472036c2fa3b1adb62582f2237901b30bf3860a6ff0ac794ba6e523434edb8f",
-      "output_rom_sha256": "b16ae295ed33a75ab7fb5c91d8399465151fa6ca7af0434c4c422ca5fe2c99dd",
+      "output_rom_sha256": "5a6b233ddf2ddb83fbc72d3f859794b335989e09a04ef9d36ae8aebde9538f94",
       "original_edition": "USA (En,Fr)",
       "release_assets": [
-        "AOEM_Korean_Patch_v1.0_20261123.zip",
+        "AOEM_Korean_Patch_v1.0_20261124.zip",
         "SHA256SUMS.txt"
       ]
     }
