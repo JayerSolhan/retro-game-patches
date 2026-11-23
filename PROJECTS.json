@@ -242,7 +242,15 @@
       "id": "dragon-knight-2-korean",
       "title": "드래곤 나이트 II 한국어 패치",
       "platform": "PC엔진 CD",
-      "category": "한글패치"
+      "category": "한글패치",
+      "current_public_version": "v1.0",
+      "download_url": "https://github.com/JayerSolhan/retro-game-patches/releases/tag/dragon-knight-2-korean--v1.0",
+      "release_assets": [
+        "Dragon_Knight_II_Korean_v1.0.zip",
+        "Dragon_Knight_II_Korean_v1_0_BIN.xdelta",
+        "Dragon_Knight_II_Korean_v1.0_xdelta_README_KO.txt",
+        "SHA256SUMS.txt"
+      ]
     },
     {
       "id": "eon-korean",

@@ -58,3 +58,5 @@
 
 
 - [세계수의 미궁 X v1.0.5 최종본 (2026-11-23)](https://github.com/JayerSolhan/retro-game-patches/releases/download/eon-korean--v1.0.5/Etrian_Odyssey_Nexus_Sekaiju_no_Meikyuu_X_Korean_Patch_v1.0.5_20261123.zip)
+
+- [드래곤 나이트 II 한국어 패치 v1.0](https://github.com/JayerSolhan/retro-game-patches/releases/tag/dragon-knight-2-korean--v1.0)
