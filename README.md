@@ -29,6 +29,7 @@
 | 디노 크라이시스 1 모던 컨트롤 | PS1 | v0.16 | 2026-09-14 | [0914 최종본](https://github.com/JayerSolhan/retro-game-patches/releases/download/dc1-modern--v0.16/dc1-modern-v0.16-FINAL_R5_20260914.zip) |
 | 디노 크라이시스 2 모던 컨트롤 | PS1 | v1.0 | 2026-09-14 | [0914 최종본](https://github.com/JayerSolhan/retro-game-patches/releases/download/dc2-modern--v1.0/dc2-modern-v1.0-FINAL_R5_20260914.zip) |
 | 바이오하자드 1 디렉터스 컷 듀얼쇼크 모던 컨트롤 | PS1 | v1.0 | 2026-09-14 | [0914 최종본](https://github.com/JayerSolhan/retro-game-patches/releases/download/re1dc-modern--v1.0/re1dc-modern-v1.0-FINAL_R5_20260914.zip) |
+| 바이오하자드 1 디렉터스 컷 일반판 모던 컨트롤 | PS1 | 게시 전 | 2026-11-24 | 게시 전 |
 | 바이오하자드 2 모던 컨트롤 | PS1 | v0.4.3 | 2026-09-14 | [0914 최종본](https://github.com/JayerSolhan/retro-game-patches/releases/download/re2-modern--v0.4.3/re2-modern-v0.4.3-FINAL_R5_20260914.zip) |
 | 바이오하자드 3 모던 컨트롤 | PS1 | v0.3 | 2026-09-14 | [0914 최종본](https://github.com/JayerSolhan/retro-game-patches/releases/download/re3-modern--v0.3/re3-modern-v0.3-FINAL_R5_20260914.zip) |
 | 바이오하자드 4 조준 중 이동·사격 | PS2 | v1.0 | 2026-10-07 | [다운로드](https://github.com/JayerSolhan/retro-game-patches/releases/tag/re4-modern--v1.0) |
