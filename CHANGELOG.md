@@ -2,6 +2,7 @@
 
 ## 2026-11-24
 
+- [바이오하자드 1 디렉터스 컷 일반판 모던 컨트롤 v1.0](https://github.com/JayerSolhan/retro-game-patches/releases/tag/re1dc-slps00998-modern--v1.0): 최초 배포. 일본판 SLPS-00998(듀얼쇼크 미대응판)용 DuckStation 게임 패치 파일과 Windows 영구 패처(.cue/.bin/.img/.chd 입력, 설치 불필요) 제공. 왼쪽 스틱 화면 기준 이동, 두 방식 동시 적용 금지. 사용자 DuckStation·실제 패드 실게임 확인(모든 난이도·캐릭터), 실기 PS1 미확인. 원본 이미지 미포함.
 - [에이지 오브 엠파이어: 미솔로지 한국어 패치 v1.0](https://github.com/JayerSolhan/retro-game-patches/releases/tag/aoem-korean--v1.0): 최초 배포. 북미판 CEPE용 BPS와 SHA 검증형 Windows 패처(PowerShell) 제공. 게임 문구 한국어화, 한글 글꼴. DS 다운로드 플레이 받는 쪽 화면은 영어 유지. 원본 ROM 미포함.
 
 ## 2026-11-23
@@ -63,5 +64,3 @@
 - [세계수의 미궁 X v1.0.5 최종본 (2026-11-23)](https://github.com/JayerSolhan/retro-game-patches/releases/download/eon-korean--v1.0.5/Etrian_Odyssey_Nexus_Sekaiju_no_Meikyuu_X_Korean_Patch_v1.0.5_20261123.zip)
 
 - [드래곤 나이트 II 한국어 패치 v1.0](https://github.com/JayerSolhan/retro-game-patches/releases/tag/dragon-knight-2-korean--v1.0)
-
-- [바이오하자드 1 디렉터스 컷 일반판 모던 컨트롤 v1.0](https://github.com/JayerSolhan/retro-game-patches/releases/tag/re1dc-slps00998-modern--v1.0)

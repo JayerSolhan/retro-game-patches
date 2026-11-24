@@ -55,7 +55,7 @@
       "current_public_version": "v1.0",
       "download_url": "https://github.com/JayerSolhan/retro-game-patches/releases/tag/re1dc-modern--v1.0",
       "category": "편의기능 패치",
-      "edition_note": "듀얼쇼크판 배포 완료 / 일반판은 별도 개발 중",
+      "edition_note": "듀얼쇼크판(SLPS-01512) 전용 / 일반판(SLPS-00998)은 별도 항목",
       "current_package": "re1dc-modern-v1.0-FINAL_R5_20260914.zip",
       "package_date": "2026-09-14",
       "source_bundle": "PS1_MODERN_CONTROLS_20260914.zip",
@@ -77,7 +77,15 @@
       "release_assets": [
         "BIOHAZARD_DC_SLPS-00998_ModernControls_v1.0.zip",
         "SHA256SUMS.txt"
-      ]
+      ],
+      "direct_download_url": "https://github.com/JayerSolhan/retro-game-patches/releases/download/re1dc-slps00998-modern--v1.0/BIOHAZARD_DC_SLPS-00998_ModernControls_v1.0.zip",
+      "current_package": "BIOHAZARD_DC_SLPS-00998_ModernControls_v1.0.zip",
+      "package_date": "2026-11-24",
+      "package_sha256": "f7331e056289a52c8ea374a81525e9f86611e3c97f26de8255fe180878b870c5",
+      "input_rom_sha256": "6b66cc76dcfd0b932c418ebfe07137b874ad093ca2c4e9a3badc23d1a57d6f2f",
+      "output_rom_sha256": "173bc4f665093c86a60ce1a8f83dd3811cec4f24d3e829a7b924ce2a480ffa2a",
+      "original_edition": "일본판 SLPS-00998 (듀얼쇼크 미대응판)",
+      "edition_note": "DuckStation 게임 패치 파일 + Windows 영구 패처(.cue/.bin/.img/.chd, 설치 불필요); 동시 적용 금지; DuckStation·실제 패드 실게임 확인, 실기 PS1 미확인"
     },
     {
       "id": "re2-modern",
