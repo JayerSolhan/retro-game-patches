@@ -71,7 +71,13 @@
       "id": "re1dc-slps00998-modern",
       "title": "바이오하자드 1 디렉터스 컷 일반판 모던 컨트롤",
       "platform": "PS1",
-      "category": "편의기능 패치"
+      "category": "편의기능 패치",
+      "current_public_version": "v1.0",
+      "download_url": "https://github.com/JayerSolhan/retro-game-patches/releases/tag/re1dc-slps00998-modern--v1.0",
+      "release_assets": [
+        "BIOHAZARD_DC_SLPS-00998_ModernControls_v1.0.zip",
+        "SHA256SUMS.txt"
+      ]
     },
     {
       "id": "re2-modern",
