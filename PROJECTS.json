@@ -278,14 +278,14 @@
       "download_url": "https://github.com/JayerSolhan/retro-game-patches/releases/tag/eon-korean--v1.0.5",
       "category": "한글패치",
       "release_assets": [
-        "Etrian_Odyssey_Nexus_Sekaiju_no_Meikyuu_X_Korean_Patch_v1.0.5_20261123.zip",
+        "Etrian_Odyssey_Nexus_Sekaiju_no_Meikyuu_X_Korean_Patch_v1.0.5.zip",
         "SekaijuX_Nexus_PortraitVoiceEditor_x64.zip",
-        "SHA256SUMS_20261123.txt"
+        "SHA256SUMS.txt"
       ],
       "package_date": "2026-11-23",
-      "current_package": "Etrian_Odyssey_Nexus_Sekaiju_no_Meikyuu_X_Korean_Patch_v1.0.5_20261123.zip",
-      "direct_download_url": "https://github.com/JayerSolhan/retro-game-patches/releases/download/eon-korean--v1.0.5/Etrian_Odyssey_Nexus_Sekaiju_no_Meikyuu_X_Korean_Patch_v1.0.5_20261123.zip",
-      "package_sha256": "233f7e95d4cd3e8b1b8de06c243c0bda1db262e3371991c3bc6848960e884363"
+      "current_package": "Etrian_Odyssey_Nexus_Sekaiju_no_Meikyuu_X_Korean_Patch_v1.0.5.zip",
+      "direct_download_url": "https://github.com/JayerSolhan/retro-game-patches/releases/download/eon-korean--v1.0.5/Etrian_Odyssey_Nexus_Sekaiju_no_Meikyuu_X_Korean_Patch_v1.0.5.zip",
+      "package_sha256": "17722640474260f66018937d684b9f5e89f08ad8d0ee63ec14bbd398f2167a7c"
     },
     {
       "id": "mm-coh-korean",
